@@ -1,0 +1,5 @@
+family,shapes,correct_measured,correctness_failures,origami_win_pct,speedup_geomean,speedup_median,mean_tflops_default,mean_tflops_origami,frac_of_oracle_geomean
+a8w8,150,136,2,48.5,0.975,0.997,410.623,356.472,
+a8w8_bpreshuffle,150,133,0,45.1,0.834,0.943,493.249,427.983,
+a8w8_blockscale,150,93,0,90.3,1.706,1.598,212.476,630.405,
+a8w8_blockscale_bpreshuffle,150,80,0,71.2,1.025,1.213,329.823,531.505,
