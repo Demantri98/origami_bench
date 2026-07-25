@@ -1,0 +1,13 @@
+**/__pycache__/
+*.py[cod]
+
+# Local run output and third-party source checkouts.
+logs/
+vendor/
+
+# Large reproducible raw profiling / agent artifacts.
+experiments/roofline/roof_batch/
+experiments/roofline/roof_wl/
+experiments/kernelforge_ab/worktrees/
+experiments/kernelforge_ab/runs/
+experiments/**/*.log

@@ -29,18 +29,17 @@ analytically, we run *that* kernel, and compare it against the default. The
 ## Layout
 
 ```
-ck_origami_bench/
+origami_bench/
 ├── common/
 │   ├── families.py   # single source of truth: family registry (torch-free)
 │   └── shapes.py     # load existing tuned shapes + realistic (N,K) pools
 ├── datasets/         # generated: <family>_gfx950_novel.csv  (~1000 rows each)
 ├── results/          # tool outputs (origami / aiter / compare CSVs)
-└── tools/
-    ├── gen_datasets.py    # build the novel-shape datasets (no GPU)
-    ├── ck_kernel_map.py   # LINCHPIN: aiter kernelId <-> Origami config_t
-    ├── origami_select.py  # pick a concrete aiter kernelId per shape via Origami
-    ├── aiter_run.py       # prod-run + benchmark (default + Origami-picked) (GPU)
-    └── compare.py         # summarize default-vs-Origami win rate / speedup
+├── tools/             # core dataset, selection, benchmark, and compare CLIs
+├── experiments/       # dispatch, CK sweep, ranking, roofline, KernelForge A/B
+├── analysis/          # aggregation scripts, generated JSON, static dashboard
+├── logs/              # retained run logs
+└── vendor/            # external profiling tool checkout
 ```
 
 ## The linchpin: kernelId ↔ config_t

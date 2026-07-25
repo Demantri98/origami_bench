@@ -1,0 +1,362 @@
+[
+  {
+    "campaign_id": "s01-u",
+    "shape_id": "s01",
+    "start_kind": "origami",
+    "returncode": 0,
+    "median_ms": 0.0156405,
+    "elapsed_sec": 3.498,
+    "tail": "ms: 0.01544000\nwall_ms: 0.01512000\nwall_ms: 0.01712100\nwall_ms: 0.01564000\nwall_ms: 0.01604000\nwall_ms: 0.01556000\nwall_ms: 0.01572100\nwall_ms: 0.01668000\nwall_ms: 0.01612000\nwall_ms: 0.01568000\nwall_ms: 0.01568000\nwall_ms: 0.01504100\nwall_ms: 0.01528000\nwall_ms: 0.01536000\nwall_ms: 0.01600000\nwall_ms: 0.01604000\nwall_ms: 0.01516000\nwall_ms: 0.01532000\nwall_ms: 0.01696000\nwall_ms: 0.01560000\nwall_ms: 0.01564100\nwall_ms: 0.01596000\nwall_ms: 0.01584000\nwall_ms: 0.01708000\nwall_ms: 0.01404100\nwall_ms: 0.01448000\nwall_ms: 0.01540000\nwall_ms: 0.01564000\nwall_ms: 0.01548000\nwall_ms: 0.01908100\nwall_ms: 0.01608000\nwall_ms: 0.01420000\nwall_ms: 0.01404000\nwall_ms: 0.01460000\nwall_ms: 0.01684000\nwall_ms: 0.01564000\nwall_ms: 0.01544000\nwall_ms: 0.01508000\nwall_ms: 0.01516100\nwall_ms: 0.01580000\nwall_ms: 0.01528000\nwall_ms: 0.01560000\nwall_ms: 0.01588000\nmedian_ms: 0.01564050\ncase_ms: primary 0.01564050\n\n[aiter] import [module_aiter_core] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s01/u/aiter/jit/module_aiter_core.so\n[aiter] import [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s01/u/aiter/jit/module_gemm_a8w8_blockscale_tune.so\n",
+    "round": 1
+  },
+  {
+    "campaign_id": "s01-v",
+    "shape_id": "s01",
+    "start_kind": "default",
+    "returncode": 0,
+    "median_ms": 0.0168805,
+    "elapsed_sec": 165.615,
+    "tail": "\nwall_ms: 0.01696100\nwall_ms: 0.02000000\nwall_ms: 0.01452000\nwall_ms: 0.01580000\nwall_ms: 0.01700100\nwall_ms: 0.01660000\nwall_ms: 0.01668000\nwall_ms: 0.01704000\nwall_ms: 0.01596100\nwall_ms: 0.01628000\nwall_ms: 0.01724000\nwall_ms: 0.01700000\nwall_ms: 0.01660100\nwall_ms: 0.01784000\nwall_ms: 0.01812000\nwall_ms: 0.01644000\nwall_ms: 0.01664100\nwall_ms: 0.01652000\nwall_ms: 0.01684000\nwall_ms: 0.01684000\nwall_ms: 0.01776100\nwall_ms: 0.01684000\nwall_ms: 0.01712000\nmedian_ms: 0.01688050\ncase_ms: primary 0.01688050\n\n[aiter] import [module_aiter_core] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s01/v/aiter/jit/module_aiter_core.so\n[aiter] [pid=601609 pname=MainProcess] start build [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s01/v/aiter/jit/build/module_gemm_a8w8_blockscale_tune\n[aiter] Current hipcc not support: -mllvm -amdgpu-coerce-illegal-types=1, skip it.\n[aiter] [pid=601609 pname=MainProcess] \u001b[32mfinish build [module_gemm_a8w8_blockscale_tune], cost 162.2s \u001b[0m\n[aiter] import [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s01/v/aiter/jit/module_gemm_a8w8_blockscale_tune.so\n",
+    "round": 1
+  },
+  {
+    "campaign_id": "s02-u",
+    "shape_id": "s02",
+    "start_kind": "origami",
+    "returncode": 0,
+    "median_ms": 0.01486,
+    "elapsed_sec": 165.67,
+    "tail": "\nwall_ms: 0.01376000\nwall_ms: 0.01516000\nwall_ms: 0.01488100\nwall_ms: 0.01468000\nwall_ms: 0.01476000\nwall_ms: 0.01468000\nwall_ms: 0.01456100\nwall_ms: 0.01484000\nwall_ms: 0.01460000\nwall_ms: 0.01484000\nwall_ms: 0.01476100\nwall_ms: 0.01576000\nwall_ms: 0.01524000\nwall_ms: 0.01476000\nwall_ms: 0.01500100\nwall_ms: 0.01476000\nwall_ms: 0.01484000\nwall_ms: 0.01484000\nwall_ms: 0.01472000\nwall_ms: 0.01448100\nwall_ms: 0.01436000\nwall_ms: 0.01428000\nwall_ms: 0.01408000\nmedian_ms: 0.01486000\ncase_ms: primary 0.01486000\n\n[aiter] import [module_aiter_core] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s02/u/aiter/jit/module_aiter_core.so\n[aiter] [pid=603105 pname=MainProcess] start build [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s02/u/aiter/jit/build/module_gemm_a8w8_blockscale_tune\n[aiter] Current hipcc not support: -mllvm -amdgpu-coerce-illegal-types=1, skip it.\n[aiter] [pid=603105 pname=MainProcess] \u001b[32mfinish build [module_gemm_a8w8_blockscale_tune], cost 162.2s \u001b[0m\n[aiter] import [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s02/u/aiter/jit/module_gemm_a8w8_blockscale_tune.so\n",
+    "round": 1
+  },
+  {
+    "campaign_id": "s02-v",
+    "shape_id": "s02",
+    "start_kind": "default",
+    "returncode": 0,
+    "median_ms": 0.01448,
+    "elapsed_sec": 165.569,
+    "tail": "0.01460000\nwall_ms: 0.01464000\nwall_ms: 0.01484000\nwall_ms: 0.01432100\nwall_ms: 0.01524000\nwall_ms: 0.01552000\nwall_ms: 0.01328000\nwall_ms: 0.01452100\nwall_ms: 0.01456000\nwall_ms: 0.01488000\nwall_ms: 0.01504000\nwall_ms: 0.01404000\nwall_ms: 0.01116000\nwall_ms: 0.01464000\nwall_ms: 0.01496000\nwall_ms: 0.01388000\nwall_ms: 0.01460100\nwall_ms: 0.01372000\nwall_ms: 0.01436000\nwall_ms: 0.01404000\nwall_ms: 0.01472100\nwall_ms: 0.01388000\nwall_ms: 0.01560000\nmedian_ms: 0.01448000\ncase_ms: M=55,N=2112,K=768 0.01448000\n\n[aiter] import [module_aiter_core] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s02/v/aiter/jit/module_aiter_core.so\n[aiter] [pid=604601 pname=MainProcess] start build [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s02/v/aiter/jit/build/module_gemm_a8w8_blockscale_tune\n[aiter] Current hipcc not support: -mllvm -amdgpu-coerce-illegal-types=1, skip it.\n[aiter] [pid=604601 pname=MainProcess] \u001b[32mfinish build [module_gemm_a8w8_blockscale_tune], cost 162.0s \u001b[0m\n[aiter] import [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s02/v/aiter/jit/module_gemm_a8w8_blockscale_tune.so\n",
+    "round": 1
+  },
+  {
+    "campaign_id": "s03-u",
+    "shape_id": "s03",
+    "start_kind": "origami",
+    "returncode": 0,
+    "median_ms": 0.02124,
+    "elapsed_sec": 3.393,
+    "tail": "00\nwall_ms: 0.02120000\nwall_ms: 0.02112000\nwall_ms: 0.02104100\nwall_ms: 0.02116000\nwall_ms: 0.02108000\nwall_ms: 0.02124000\nwall_ms: 0.02100100\nwall_ms: 0.02116000\nwall_ms: 0.02100000\nwall_ms: 0.02120000\nwall_ms: 0.02128100\nwall_ms: 0.02600000\nwall_ms: 0.02144000\nwall_ms: 0.02120100\nwall_ms: 0.02096000\nwall_ms: 0.02124000\nwall_ms: 0.02108000\nwall_ms: 0.02100100\nwall_ms: 0.02092000\nwall_ms: 0.02088000\nwall_ms: 0.02096000\nwall_ms: 0.02084100\nwall_ms: 0.02088000\nwall_ms: 0.02096000\nwall_ms: 0.02112000\nwall_ms: 0.02104100\nwall_ms: 0.02128000\nwall_ms: 0.02104000\nwall_ms: 0.02108000\nwall_ms: 0.02104100\nwall_ms: 0.02116000\nwall_ms: 0.02100000\nwall_ms: 0.02112000\nwall_ms: 0.02108100\nwall_ms: 0.02116000\nwall_ms: 0.02116000\nwall_ms: 0.02096000\nwall_ms: 0.02112100\nwall_ms: 0.02116000\nwall_ms: 0.02120000\nwall_ms: 0.02116000\nwall_ms: 0.02132100\nmedian_ms: 0.02124000\ncase_ms: M=86,N=20480,K=2048 0.02124000\n\n[aiter] import [module_aiter_core] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s03/u/aiter/jit/module_aiter_core.so\n[aiter] import [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s03/u/aiter/jit/module_gemm_a8w8_blockscale_tune.so\n",
+    "round": 1
+  },
+  {
+    "campaign_id": "s03-v",
+    "shape_id": "s03",
+    "start_kind": "default",
+    "returncode": 0,
+    "median_ms": 0.02324,
+    "elapsed_sec": 3.421,
+    "tail": "ms: 0.02296100\nwall_ms: 0.02308000\nwall_ms: 0.02308000\nwall_ms: 0.02320000\nwall_ms: 0.02304100\nwall_ms: 0.02308000\nwall_ms: 0.02292000\nwall_ms: 0.02332100\nwall_ms: 0.02320000\nwall_ms: 0.02296000\nwall_ms: 0.02316000\nwall_ms: 0.02328100\nwall_ms: 0.02312000\nwall_ms: 0.02320000\nwall_ms: 0.02316000\nwall_ms: 0.02324100\nwall_ms: 0.02320000\nwall_ms: 0.02316000\nwall_ms: 0.02300000\nwall_ms: 0.02320100\nwall_ms: 0.02300000\nwall_ms: 0.02304000\nwall_ms: 0.02316000\nwall_ms: 0.02456000\nwall_ms: 0.02312000\nwall_ms: 0.02300000\nwall_ms: 0.02312100\nwall_ms: 0.02420000\nwall_ms: 0.02384000\nwall_ms: 0.02308000\nwall_ms: 0.02284100\nwall_ms: 0.02324000\nwall_ms: 0.02300000\nwall_ms: 0.02272000\nwall_ms: 0.02292100\nwall_ms: 0.02280000\nwall_ms: 0.02268000\nwall_ms: 0.02268000\nwall_ms: 0.02268000\nwall_ms: 0.02292000\nwall_ms: 0.02276000\nwall_ms: 0.02272100\nwall_ms: 0.02296000\nmedian_ms: 0.02324000\ncase_ms: primary 0.02324000\n\n[aiter] import [module_aiter_core] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s03/v/aiter/jit/module_aiter_core.so\n[aiter] import [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s03/v/aiter/jit/module_gemm_a8w8_blockscale_tune.so\n",
+    "round": 1
+  },
+  {
+    "campaign_id": "s04-u",
+    "shape_id": "s04",
+    "start_kind": "origami",
+    "returncode": 0,
+    "median_ms": 0.0262005,
+    "elapsed_sec": 165.182,
+    "tail": "02580100\nwall_ms: 0.02596000\nwall_ms: 0.02600000\nwall_ms: 0.02596100\nwall_ms: 0.02580000\nwall_ms: 0.02584000\nwall_ms: 0.02580100\nwall_ms: 0.02596000\nwall_ms: 0.02584000\nwall_ms: 0.02608100\nwall_ms: 0.02596000\nwall_ms: 0.02620000\nwall_ms: 0.02596000\nwall_ms: 0.02608000\nwall_ms: 0.02572100\nwall_ms: 0.02568000\nwall_ms: 0.02576000\nwall_ms: 0.02592100\nwall_ms: 0.02580000\nwall_ms: 0.02608000\nwall_ms: 0.02588100\nwall_ms: 0.02592000\nwall_ms: 0.02588000\nmedian_ms: 0.02620050\ncase_ms: M=887,N=4352,K=2304 0.02620050\n\n[aiter] import [module_aiter_core] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s04/u/aiter/jit/module_aiter_core.so\n[aiter] [pid=606283 pname=MainProcess] start build [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s04/u/aiter/jit/build/module_gemm_a8w8_blockscale_tune\n[aiter] Current hipcc not support: -mllvm -amdgpu-coerce-illegal-types=1, skip it.\n[aiter] [pid=606283 pname=MainProcess] \u001b[32mfinish build [module_gemm_a8w8_blockscale_tune], cost 161.7s \u001b[0m\n[aiter] import [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s04/u/aiter/jit/module_gemm_a8w8_blockscale_tune.so\n",
+    "round": 1
+  },
+  {
+    "campaign_id": "s04-v",
+    "shape_id": "s04",
+    "start_kind": "default",
+    "returncode": 0,
+    "median_ms": 0.0264,
+    "elapsed_sec": 166.084,
+    "tail": "02592000\nwall_ms: 0.02596000\nwall_ms: 0.02608100\nwall_ms: 0.02624000\nwall_ms: 0.02588100\nwall_ms: 0.02740000\nwall_ms: 0.02592000\nwall_ms: 0.02608100\nwall_ms: 0.02712000\nwall_ms: 0.02604000\nwall_ms: 0.02592100\nwall_ms: 0.02604000\nwall_ms: 0.02600000\nwall_ms: 0.02568100\nwall_ms: 0.02568000\nwall_ms: 0.02588100\nwall_ms: 0.02576000\nwall_ms: 0.02556000\nwall_ms: 0.02572100\nwall_ms: 0.02580000\nwall_ms: 0.02556000\nwall_ms: 0.02580100\nwall_ms: 0.02576000\nmedian_ms: 0.02640000\ncase_ms: M=887,N=4352,K=2304 0.02640000\n\n[aiter] import [module_aiter_core] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s04/v/aiter/jit/module_aiter_core.so\n[aiter] [pid=607835 pname=MainProcess] start build [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s04/v/aiter/jit/build/module_gemm_a8w8_blockscale_tune\n[aiter] Current hipcc not support: -mllvm -amdgpu-coerce-illegal-types=1, skip it.\n[aiter] [pid=607835 pname=MainProcess] \u001b[32mfinish build [module_gemm_a8w8_blockscale_tune], cost 162.6s \u001b[0m\n[aiter] import [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s04/v/aiter/jit/module_gemm_a8w8_blockscale_tune.so\n",
+    "round": 1
+  },
+  {
+    "campaign_id": "s05-u",
+    "shape_id": "s05",
+    "start_kind": "origami",
+    "returncode": 0,
+    "median_ms": 0.04186,
+    "elapsed_sec": 165.552,
+    "tail": "4260000\nwall_ms: 0.04268100\nwall_ms: 0.04228000\nwall_ms: 0.04196000\nwall_ms: 0.04088000\nwall_ms: 0.04140000\nwall_ms: 0.04148000\nwall_ms: 0.04140000\nwall_ms: 0.04168100\nwall_ms: 0.04136000\nwall_ms: 0.04132100\nwall_ms: 0.04140000\nwall_ms: 0.04084100\nwall_ms: 0.04152000\nwall_ms: 0.04144100\nwall_ms: 0.04144000\nwall_ms: 0.04164100\nwall_ms: 0.04132000\nwall_ms: 0.04104100\nwall_ms: 0.04104000\nwall_ms: 0.04080100\nwall_ms: 0.04180000\nwall_ms: 0.04252100\nmedian_ms: 0.04186000\ncase_ms: M=1741,N=4352,K=2304 0.04186000\n\n[aiter] import [module_aiter_core] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s05/u/aiter/jit/module_aiter_core.so\n[aiter] [pid=609387 pname=MainProcess] start build [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s05/u/aiter/jit/build/module_gemm_a8w8_blockscale_tune\n[aiter] Current hipcc not support: -mllvm -amdgpu-coerce-illegal-types=1, skip it.\n[aiter] [pid=609387 pname=MainProcess] \u001b[32mfinish build [module_gemm_a8w8_blockscale_tune], cost 162.1s \u001b[0m\n[aiter] import [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s05/u/aiter/jit/module_gemm_a8w8_blockscale_tune.so\n",
+    "round": 1
+  },
+  {
+    "campaign_id": "s05-v",
+    "shape_id": "s05",
+    "start_kind": "default",
+    "returncode": 0,
+    "median_ms": 0.0429805,
+    "elapsed_sec": 3.555,
+    "tail": "s: 0.04292100\nwall_ms: 0.04304000\nwall_ms: 0.04296100\nwall_ms: 0.04260000\nwall_ms: 0.04224000\nwall_ms: 0.04388100\nwall_ms: 0.04280000\nwall_ms: 0.04280100\nwall_ms: 0.04208000\nwall_ms: 0.04208100\nwall_ms: 0.04156000\nwall_ms: 0.04180000\nwall_ms: 0.04108100\nwall_ms: 0.04204000\nwall_ms: 0.04184100\nwall_ms: 0.04200000\nwall_ms: 0.04160000\nwall_ms: 0.04184100\nwall_ms: 0.04148000\nwall_ms: 0.04152100\nwall_ms: 0.04136000\nwall_ms: 0.04188100\nwall_ms: 0.04168000\nwall_ms: 0.04184000\nwall_ms: 0.04176100\nwall_ms: 0.04204000\nwall_ms: 0.04160100\nwall_ms: 0.04544000\nwall_ms: 0.04064000\nwall_ms: 0.04192000\nwall_ms: 0.04120000\nwall_ms: 0.04096100\nwall_ms: 0.04068000\nwall_ms: 0.04076100\nwall_ms: 0.04060000\nwall_ms: 0.04032000\nwall_ms: 0.04016100\nwall_ms: 0.04084000\nwall_ms: 0.04072100\nwall_ms: 0.04068000\nwall_ms: 0.04076000\nmedian_ms: 0.04298050\ncase_ms: primary 0.04298050\ncase_ms: M=1741,N=4352,K=2304 0.04298050\n\n[aiter] import [module_aiter_core] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s05/v/aiter/jit/module_aiter_core.so\n[aiter] import [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s05/v/aiter/jit/module_gemm_a8w8_blockscale_tune.so\n",
+    "round": 1
+  },
+  {
+    "campaign_id": "s06-u",
+    "shape_id": "s06",
+    "start_kind": "origami",
+    "returncode": 0,
+    "median_ms": 0.0866005,
+    "elapsed_sec": 3.418,
+    "tail": "0\nwall_ms: 0.08652000\nwall_ms: 0.08616100\nwall_ms: 0.08620100\nwall_ms: 0.08580100\nwall_ms: 0.08656000\nwall_ms: 0.08736100\nwall_ms: 0.08656100\nwall_ms: 0.08576100\nwall_ms: 0.08504000\nwall_ms: 0.08504100\nwall_ms: 0.08552100\nwall_ms: 0.08480100\nwall_ms: 0.08548000\nwall_ms: 0.08544100\nwall_ms: 0.08524100\nwall_ms: 0.08564100\nwall_ms: 0.08528000\nwall_ms: 0.08524100\nwall_ms: 0.08504100\nwall_ms: 0.08556100\nwall_ms: 0.08452000\nwall_ms: 0.08400100\nwall_ms: 0.08412100\nwall_ms: 0.08408100\nwall_ms: 0.08408000\nwall_ms: 0.08432100\nwall_ms: 0.08416100\nwall_ms: 0.08380100\nwall_ms: 0.08440000\nwall_ms: 0.08412100\nwall_ms: 0.08344100\nwall_ms: 0.08328000\nwall_ms: 0.08344100\nwall_ms: 0.08356100\nwall_ms: 0.08340100\nwall_ms: 0.08348000\nwall_ms: 0.08348100\nwall_ms: 0.08344100\nwall_ms: 0.08336100\nwall_ms: 0.08412000\nwall_ms: 0.08412100\nwall_ms: 0.08396100\nmedian_ms: 0.08660050\ncase_ms: M=19048,N=2112,K=768 0.08660050\n\n[aiter] import [module_aiter_core] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s06/u/aiter/jit/module_aiter_core.so\n[aiter] import [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s06/u/aiter/jit/module_gemm_a8w8_blockscale_tune.so\n",
+    "round": 1
+  },
+  {
+    "campaign_id": "s06-v",
+    "shape_id": "s06",
+    "start_kind": "default",
+    "returncode": 0,
+    "median_ms": 0.085821,
+    "elapsed_sec": 3.43,
+    "tail": "ms: 0.08612000\nwall_ms: 0.08504100\nwall_ms: 0.08376100\nwall_ms: 0.08400100\nwall_ms: 0.08356100\nwall_ms: 0.08428000\nwall_ms: 0.08368100\nwall_ms: 0.08380100\nwall_ms: 0.08408100\nwall_ms: 0.08364100\nwall_ms: 0.08452000\nwall_ms: 0.08428100\nwall_ms: 0.08352100\nwall_ms: 0.08328100\nwall_ms: 0.08312000\nwall_ms: 0.08276100\nwall_ms: 0.08300100\nwall_ms: 0.08276100\nwall_ms: 0.08228100\nwall_ms: 0.08296000\nwall_ms: 0.08304100\nwall_ms: 0.08300100\nwall_ms: 0.08288100\nwall_ms: 0.08360000\nwall_ms: 0.08268000\nwall_ms: 0.08188100\nwall_ms: 0.08180100\nwall_ms: 0.08196100\nwall_ms: 0.08184000\nwall_ms: 0.08220100\nwall_ms: 0.08216100\nwall_ms: 0.08196100\nwall_ms: 0.08204000\nwall_ms: 0.08204100\nwall_ms: 0.08176100\nwall_ms: 0.08180100\nwall_ms: 0.08096100\nwall_ms: 0.08084000\nwall_ms: 0.08096100\nwall_ms: 0.08084100\nwall_ms: 0.08088100\nwall_ms: 0.08096000\nwall_ms: 0.08108100\nmedian_ms: 0.08582100\ncase_ms: primary 0.08582100\n\n[aiter] import [module_aiter_core] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s06/v/aiter/jit/module_aiter_core.so\n[aiter] import [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s06/v/aiter/jit/module_gemm_a8w8_blockscale_tune.so\n",
+    "round": 1
+  },
+  {
+    "campaign_id": "s01-v",
+    "shape_id": "s01",
+    "start_kind": "default",
+    "returncode": 0,
+    "median_ms": 0.01624,
+    "elapsed_sec": 3.542,
+    "tail": "ms: 0.01576000\nwall_ms: 0.01612000\nwall_ms: 0.01556100\nwall_ms: 0.01608000\nwall_ms: 0.01692000\nwall_ms: 0.01644000\nwall_ms: 0.01648000\nwall_ms: 0.01764000\nwall_ms: 0.01612000\nwall_ms: 0.01640000\nwall_ms: 0.01620000\nwall_ms: 0.01632000\nwall_ms: 0.01628000\nwall_ms: 0.01632100\nwall_ms: 0.01624000\nwall_ms: 0.01668000\nwall_ms: 0.01608000\nwall_ms: 0.01688000\nwall_ms: 0.01728000\nwall_ms: 0.01648000\nwall_ms: 0.01648000\nwall_ms: 0.01692000\nwall_ms: 0.01604000\nwall_ms: 0.01616000\nwall_ms: 0.01624100\nwall_ms: 0.01656000\nwall_ms: 0.01612000\nwall_ms: 0.01648000\nwall_ms: 0.01584000\nwall_ms: 0.01656000\nwall_ms: 0.01700100\nwall_ms: 0.01616000\nwall_ms: 0.01636000\nwall_ms: 0.01644000\nwall_ms: 0.01720000\nwall_ms: 0.01624000\nwall_ms: 0.01596000\nwall_ms: 0.01612000\nwall_ms: 0.01656000\nwall_ms: 0.01692000\nwall_ms: 0.01596000\nwall_ms: 0.01568100\nwall_ms: 0.01576000\nmedian_ms: 0.01624000\ncase_ms: primary 0.01624000\n\n[aiter] import [module_aiter_core] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s01/v/aiter/jit/module_aiter_core.so\n[aiter] import [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s01/v/aiter/jit/module_gemm_a8w8_blockscale_tune.so\n",
+    "round": 2
+  },
+  {
+    "campaign_id": "s01-u",
+    "shape_id": "s01",
+    "start_kind": "origami",
+    "returncode": 0,
+    "median_ms": 0.01546,
+    "elapsed_sec": 3.429,
+    "tail": "ms: 0.01532000\nwall_ms: 0.01588000\nwall_ms: 0.01692000\nwall_ms: 0.01624000\nwall_ms: 0.01608100\nwall_ms: 0.01516000\nwall_ms: 0.01584000\nwall_ms: 0.01588000\nwall_ms: 0.01560000\nwall_ms: 0.01564000\nwall_ms: 0.01608100\nwall_ms: 0.01536000\nwall_ms: 0.01532000\nwall_ms: 0.01516000\nwall_ms: 0.01564000\nwall_ms: 0.01552000\nwall_ms: 0.01516100\nwall_ms: 0.01512000\nwall_ms: 0.04988000\nwall_ms: 0.01820000\nwall_ms: 0.01656100\nwall_ms: 0.01556000\nwall_ms: 0.01616000\nwall_ms: 0.01836000\nwall_ms: 0.01412000\nwall_ms: 0.01408000\nwall_ms: 0.01408100\nwall_ms: 0.01404000\nwall_ms: 0.01480000\nwall_ms: 0.01600000\nwall_ms: 0.01660000\nwall_ms: 0.01468000\nwall_ms: 0.01576100\nwall_ms: 0.01604000\nwall_ms: 0.01696000\nwall_ms: 0.01528000\nwall_ms: 0.01544000\nwall_ms: 0.01544000\nwall_ms: 0.01528000\nwall_ms: 0.01500000\nwall_ms: 0.01576000\nwall_ms: 0.01520000\nwall_ms: 0.01560000\nmedian_ms: 0.01546000\ncase_ms: primary 0.01546000\n\n[aiter] import [module_aiter_core] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s01/u/aiter/jit/module_aiter_core.so\n[aiter] import [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s01/u/aiter/jit/module_gemm_a8w8_blockscale_tune.so\n",
+    "round": 2
+  },
+  {
+    "campaign_id": "s02-v",
+    "shape_id": "s02",
+    "start_kind": "default",
+    "returncode": 0,
+    "median_ms": 0.0142,
+    "elapsed_sec": 3.404,
+    "tail": "6000\nwall_ms: 0.01316000\nwall_ms: 0.01472000\nwall_ms: 0.01396100\nwall_ms: 0.01468000\nwall_ms: 0.01656000\nwall_ms: 0.01664000\nwall_ms: 0.01360000\nwall_ms: 0.01416000\nwall_ms: 0.01404000\nwall_ms: 0.01436000\nwall_ms: 0.01380000\nwall_ms: 0.01388000\nwall_ms: 0.01408000\nwall_ms: 0.01412100\nwall_ms: 0.01400000\nwall_ms: 0.01368000\nwall_ms: 0.01376000\nwall_ms: 0.01448000\nwall_ms: 0.01396000\nwall_ms: 0.01392100\nwall_ms: 0.01388000\nwall_ms: 0.01440000\nwall_ms: 0.01376000\nwall_ms: 0.01384000\nwall_ms: 0.01408000\nwall_ms: 0.01396100\nwall_ms: 0.01420000\nwall_ms: 0.01372000\nwall_ms: 0.01476000\nwall_ms: 0.01400000\nwall_ms: 0.01384000\nwall_ms: 0.01352100\nwall_ms: 0.01432000\nwall_ms: 0.01444000\nwall_ms: 0.01476000\nwall_ms: 0.01400000\nwall_ms: 0.01396100\nwall_ms: 0.01448000\nwall_ms: 0.01408000\nwall_ms: 0.01444000\nwall_ms: 0.01408000\nwall_ms: 0.01456000\nmedian_ms: 0.01420000\ncase_ms: M=55,N=2112,K=768 0.01420000\n\n[aiter] import [module_aiter_core] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s02/v/aiter/jit/module_aiter_core.so\n[aiter] import [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s02/v/aiter/jit/module_gemm_a8w8_blockscale_tune.so\n",
+    "round": 2
+  },
+  {
+    "campaign_id": "s02-u",
+    "shape_id": "s02",
+    "start_kind": "origami",
+    "returncode": 0,
+    "median_ms": 0.01464,
+    "elapsed_sec": 3.416,
+    "tail": "ms: 0.01324000\nwall_ms: 0.01484000\nwall_ms: 0.01568000\nwall_ms: 0.01516000\nwall_ms: 0.01576000\nwall_ms: 0.01616000\nwall_ms: 0.01532100\nwall_ms: 0.01440000\nwall_ms: 0.01536000\nwall_ms: 0.01480000\nwall_ms: 0.01404000\nwall_ms: 0.01448000\nwall_ms: 0.01516000\nwall_ms: 0.01468000\nwall_ms: 0.01388000\nwall_ms: 0.01452000\nwall_ms: 0.01420000\nwall_ms: 0.01428100\nwall_ms: 0.01496000\nwall_ms: 0.01532000\nwall_ms: 0.01464000\nwall_ms: 0.01508000\nwall_ms: 0.01480000\nwall_ms: 0.01484000\nwall_ms: 0.01528000\nwall_ms: 0.01468000\nwall_ms: 0.01436000\nwall_ms: 0.01460000\nwall_ms: 0.01392100\nwall_ms: 0.01476000\nwall_ms: 0.01472000\nwall_ms: 0.01408000\nwall_ms: 0.01440000\nwall_ms: 0.01468000\nwall_ms: 0.01468100\nwall_ms: 0.01492000\nwall_ms: 0.01452000\nwall_ms: 0.01496000\nwall_ms: 0.01448000\nwall_ms: 0.01436000\nwall_ms: 0.01448000\nwall_ms: 0.01460000\nwall_ms: 0.01464000\nmedian_ms: 0.01464000\ncase_ms: primary 0.01464000\n\n[aiter] import [module_aiter_core] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s02/u/aiter/jit/module_aiter_core.so\n[aiter] import [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s02/u/aiter/jit/module_gemm_a8w8_blockscale_tune.so\n",
+    "round": 2
+  },
+  {
+    "campaign_id": "s03-v",
+    "shape_id": "s03",
+    "start_kind": "default",
+    "returncode": 0,
+    "median_ms": 0.0232,
+    "elapsed_sec": 3.483,
+    "tail": "ms: 0.02304000\nwall_ms: 0.02320000\nwall_ms: 0.02296000\nwall_ms: 0.02300000\nwall_ms: 0.02308000\nwall_ms: 0.02308100\nwall_ms: 0.02296000\nwall_ms: 0.02300000\nwall_ms: 0.02304000\nwall_ms: 0.02304100\nwall_ms: 0.02324000\nwall_ms: 0.02316000\nwall_ms: 0.02324000\nwall_ms: 0.02320100\nwall_ms: 0.02324000\nwall_ms: 0.02316000\nwall_ms: 0.02324000\nwall_ms: 0.02328000\nwall_ms: 0.02304000\nwall_ms: 0.02308000\nwall_ms: 0.02300000\nwall_ms: 0.02304000\nwall_ms: 0.02296100\nwall_ms: 0.02304000\nwall_ms: 0.02296000\nwall_ms: 0.02292000\nwall_ms: 0.02312100\nwall_ms: 0.02332000\nwall_ms: 0.02320000\nwall_ms: 0.02312000\nwall_ms: 0.02312100\nwall_ms: 0.02328000\nwall_ms: 0.02316000\nwall_ms: 0.02312000\nwall_ms: 0.02292000\nwall_ms: 0.02380000\nwall_ms: 0.02300000\nwall_ms: 0.02288000\nwall_ms: 0.02304000\nwall_ms: 0.02296100\nwall_ms: 0.02296000\nwall_ms: 0.02304000\nwall_ms: 0.02308000\nmedian_ms: 0.02320000\ncase_ms: primary 0.02320000\n\n[aiter] import [module_aiter_core] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s03/v/aiter/jit/module_aiter_core.so\n[aiter] import [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s03/v/aiter/jit/module_gemm_a8w8_blockscale_tune.so\n",
+    "round": 2
+  },
+  {
+    "campaign_id": "s03-u",
+    "shape_id": "s03",
+    "start_kind": "origami",
+    "returncode": 0,
+    "median_ms": 0.02136,
+    "elapsed_sec": 3.427,
+    "tail": "00\nwall_ms: 0.02140000\nwall_ms: 0.02128000\nwall_ms: 0.02268000\nwall_ms: 0.02328000\nwall_ms: 0.02148000\nwall_ms: 0.02112000\nwall_ms: 0.02112100\nwall_ms: 0.02124000\nwall_ms: 0.02172000\nwall_ms: 0.02128000\nwall_ms: 0.02136100\nwall_ms: 0.02152000\nwall_ms: 0.02140000\nwall_ms: 0.02128000\nwall_ms: 0.02140000\nwall_ms: 0.02152100\nwall_ms: 0.02132000\nwall_ms: 0.02124000\nwall_ms: 0.02116000\nwall_ms: 0.02120100\nwall_ms: 0.02120000\nwall_ms: 0.02108000\nwall_ms: 0.02120000\nwall_ms: 0.02116000\nwall_ms: 0.02128100\nwall_ms: 0.02128000\nwall_ms: 0.02136000\nwall_ms: 0.02132000\nwall_ms: 0.02132100\nwall_ms: 0.02132000\nwall_ms: 0.02144000\nwall_ms: 0.02132000\nwall_ms: 0.02132000\nwall_ms: 0.02116100\nwall_ms: 0.02108000\nwall_ms: 0.02104000\nwall_ms: 0.02108000\nwall_ms: 0.02112100\nwall_ms: 0.02116000\nwall_ms: 0.02116000\nwall_ms: 0.02112000\nwall_ms: 0.02132000\nmedian_ms: 0.02136000\ncase_ms: M=86,N=20480,K=2048 0.02136000\n\n[aiter] import [module_aiter_core] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s03/u/aiter/jit/module_aiter_core.so\n[aiter] import [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s03/u/aiter/jit/module_gemm_a8w8_blockscale_tune.so\n",
+    "round": 2
+  },
+  {
+    "campaign_id": "s04-v",
+    "shape_id": "s04",
+    "start_kind": "default",
+    "returncode": 0,
+    "median_ms": 0.0264205,
+    "elapsed_sec": 3.486,
+    "tail": "00\nwall_ms: 0.02652100\nwall_ms: 0.02636000\nwall_ms: 0.02616000\nwall_ms: 0.02632000\nwall_ms: 0.02648100\nwall_ms: 0.02632000\nwall_ms: 0.02632000\nwall_ms: 0.02772100\nwall_ms: 0.02660000\nwall_ms: 0.02664000\nwall_ms: 0.02620000\nwall_ms: 0.02840100\nwall_ms: 0.02684000\nwall_ms: 0.02608000\nwall_ms: 0.02644100\nwall_ms: 0.02624000\nwall_ms: 0.02648000\nwall_ms: 0.02620000\nwall_ms: 0.02604100\nwall_ms: 0.02596000\nwall_ms: 0.02612000\nwall_ms: 0.02604000\nwall_ms: 0.02616100\nwall_ms: 0.02620000\nwall_ms: 0.02632000\nwall_ms: 0.02632100\nwall_ms: 0.02612000\nwall_ms: 0.02624000\nwall_ms: 0.02648000\nwall_ms: 0.02624100\nwall_ms: 0.02644000\nwall_ms: 0.02628000\nwall_ms: 0.02640000\nwall_ms: 0.02608000\nwall_ms: 0.02592000\nwall_ms: 0.02588000\nwall_ms: 0.02604100\nwall_ms: 0.02600000\nwall_ms: 0.02632000\nwall_ms: 0.02608000\nwall_ms: 0.02628100\nwall_ms: 0.02640000\nmedian_ms: 0.02642050\ncase_ms: M=887,N=4352,K=2304 0.02642050\n\n[aiter] import [module_aiter_core] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s04/v/aiter/jit/module_aiter_core.so\n[aiter] import [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s04/v/aiter/jit/module_gemm_a8w8_blockscale_tune.so\n",
+    "round": 2
+  },
+  {
+    "campaign_id": "s04-u",
+    "shape_id": "s04",
+    "start_kind": "origami",
+    "returncode": 0,
+    "median_ms": 0.0265005,
+    "elapsed_sec": 3.404,
+    "tail": "00\nwall_ms: 0.02616100\nwall_ms: 0.02608000\nwall_ms: 0.02640000\nwall_ms: 0.02624000\nwall_ms: 0.02668100\nwall_ms: 0.02616000\nwall_ms: 0.02636000\nwall_ms: 0.02636000\nwall_ms: 0.02620000\nwall_ms: 0.02620000\nwall_ms: 0.02636000\nwall_ms: 0.02660100\nwall_ms: 0.02656000\nwall_ms: 0.02644000\nwall_ms: 0.02648000\nwall_ms: 0.02644100\nwall_ms: 0.02628000\nwall_ms: 0.02628000\nwall_ms: 0.02636000\nwall_ms: 0.02632100\nwall_ms: 0.02848000\nwall_ms: 0.02604000\nwall_ms: 0.02640000\nwall_ms: 0.02632100\nwall_ms: 0.03080000\nwall_ms: 0.02648000\nwall_ms: 0.02624100\nwall_ms: 0.02728000\nwall_ms: 0.02648000\nwall_ms: 0.02612000\nwall_ms: 0.02652100\nwall_ms: 0.02608000\nwall_ms: 0.02600000\nwall_ms: 0.02596000\nwall_ms: 0.02624100\nwall_ms: 0.02596000\nwall_ms: 0.02616000\nwall_ms: 0.02584000\nwall_ms: 0.02616100\nwall_ms: 0.02600000\nwall_ms: 0.02596000\nwall_ms: 0.02612000\nmedian_ms: 0.02650050\ncase_ms: M=887,N=4352,K=2304 0.02650050\n\n[aiter] import [module_aiter_core] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s04/u/aiter/jit/module_aiter_core.so\n[aiter] import [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s04/u/aiter/jit/module_gemm_a8w8_blockscale_tune.so\n",
+    "round": 2
+  },
+  {
+    "campaign_id": "s05-v",
+    "shape_id": "s05",
+    "start_kind": "default",
+    "returncode": 0,
+    "median_ms": 0.041161,
+    "elapsed_sec": 3.564,
+    "tail": "s: 0.04360000\nwall_ms: 0.04156000\nwall_ms: 0.04128100\nwall_ms: 0.04180000\nwall_ms: 0.04168000\nwall_ms: 0.04148100\nwall_ms: 0.04088000\nwall_ms: 0.04192100\nwall_ms: 0.04196000\nwall_ms: 0.04212000\nwall_ms: 0.04188100\nwall_ms: 0.04196000\nwall_ms: 0.04168100\nwall_ms: 0.04164000\nwall_ms: 0.04116000\nwall_ms: 0.04188100\nwall_ms: 0.04176000\nwall_ms: 0.04180100\nwall_ms: 0.04168000\nwall_ms: 0.04176000\nwall_ms: 0.04144100\nwall_ms: 0.04148000\nwall_ms: 0.04152000\nwall_ms: 0.04176100\nwall_ms: 0.04244000\nwall_ms: 0.04160100\nwall_ms: 0.04152000\nwall_ms: 0.04164000\nwall_ms: 0.04148100\nwall_ms: 0.04128000\nwall_ms: 0.04088100\nwall_ms: 0.04144000\nwall_ms: 0.04132000\nwall_ms: 0.04124100\nwall_ms: 0.04136000\nwall_ms: 0.04112000\nwall_ms: 0.04100000\nwall_ms: 0.04088000\nwall_ms: 0.04064100\nwall_ms: 0.04124000\nwall_ms: 0.04140000\nmedian_ms: 0.04116100\ncase_ms: primary 0.04116100\ncase_ms: M=1741,N=4352,K=2304 0.04116100\n\n[aiter] import [module_aiter_core] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s05/v/aiter/jit/module_aiter_core.so\n[aiter] import [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s05/v/aiter/jit/module_gemm_a8w8_blockscale_tune.so\n",
+    "round": 2
+  },
+  {
+    "campaign_id": "s05-u",
+    "shape_id": "s05",
+    "start_kind": "origami",
+    "returncode": 0,
+    "median_ms": 0.0415605,
+    "elapsed_sec": 3.506,
+    "tail": "0\nwall_ms: 0.04216000\nwall_ms: 0.04192100\nwall_ms: 0.04168000\nwall_ms: 0.04176000\nwall_ms: 0.04160000\nwall_ms: 0.04100000\nwall_ms: 0.04172100\nwall_ms: 0.04208000\nwall_ms: 0.04172000\nwall_ms: 0.04216000\nwall_ms: 0.04200000\nwall_ms: 0.04184100\nwall_ms: 0.04168000\nwall_ms: 0.04140000\nwall_ms: 0.04188000\nwall_ms: 0.04192000\nwall_ms: 0.04188100\nwall_ms: 0.04192000\nwall_ms: 0.04452100\nwall_ms: 0.04168000\nwall_ms: 0.04164000\nwall_ms: 0.04084100\nwall_ms: 0.04192000\nwall_ms: 0.04176100\nwall_ms: 0.04144000\nwall_ms: 0.04148000\nwall_ms: 0.04188100\nwall_ms: 0.04144000\nwall_ms: 0.04120100\nwall_ms: 0.04084000\nwall_ms: 0.04164000\nwall_ms: 0.04168100\nwall_ms: 0.04120000\nwall_ms: 0.04124000\nwall_ms: 0.04140000\nwall_ms: 0.04120000\nwall_ms: 0.04112100\nwall_ms: 0.04028000\nwall_ms: 0.04136000\nwall_ms: 0.04136100\nwall_ms: 0.04324000\nwall_ms: 0.04116100\nmedian_ms: 0.04156050\ncase_ms: M=1741,N=4352,K=2304 0.04156050\n\n[aiter] import [module_aiter_core] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s05/u/aiter/jit/module_aiter_core.so\n[aiter] import [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s05/u/aiter/jit/module_gemm_a8w8_blockscale_tune.so\n",
+    "round": 2
+  },
+  {
+    "campaign_id": "s06-v",
+    "shape_id": "s06",
+    "start_kind": "default",
+    "returncode": 0,
+    "median_ms": 0.085601,
+    "elapsed_sec": 3.424,
+    "tail": "ms: 0.08484100\nwall_ms: 0.08480100\nwall_ms: 0.08488100\nwall_ms: 0.08408000\nwall_ms: 0.08412100\nwall_ms: 0.08420100\nwall_ms: 0.08372100\nwall_ms: 0.08400100\nwall_ms: 0.08388000\nwall_ms: 0.08396100\nwall_ms: 0.08396100\nwall_ms: 0.08396100\nwall_ms: 0.08364000\nwall_ms: 0.08560100\nwall_ms: 0.08324100\nwall_ms: 0.08308100\nwall_ms: 0.08312100\nwall_ms: 0.08308000\nwall_ms: 0.08272100\nwall_ms: 0.08272100\nwall_ms: 0.08244100\nwall_ms: 0.08292000\nwall_ms: 0.08272100\nwall_ms: 0.08300100\nwall_ms: 0.08296100\nwall_ms: 0.08288000\nwall_ms: 0.08220100\nwall_ms: 0.08212100\nwall_ms: 0.08192100\nwall_ms: 0.08204000\nwall_ms: 0.08204100\nwall_ms: 0.08228100\nwall_ms: 0.08196100\nwall_ms: 0.08188000\nwall_ms: 0.08200000\nwall_ms: 0.08236100\nwall_ms: 0.08172100\nwall_ms: 0.08180100\nwall_ms: 0.08080000\nwall_ms: 0.08112100\nwall_ms: 0.08084100\nwall_ms: 0.08080100\nwall_ms: 0.08100000\nmedian_ms: 0.08560100\ncase_ms: primary 0.08560100\n\n[aiter] import [module_aiter_core] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s06/v/aiter/jit/module_aiter_core.so\n[aiter] import [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s06/v/aiter/jit/module_gemm_a8w8_blockscale_tune.so\n",
+    "round": 2
+  },
+  {
+    "campaign_id": "s06-u",
+    "shape_id": "s06",
+    "start_kind": "origami",
+    "returncode": 0,
+    "median_ms": 0.087061,
+    "elapsed_sec": 3.497,
+    "tail": "0\nwall_ms: 0.08636000\nwall_ms: 0.08604100\nwall_ms: 0.08648100\nwall_ms: 0.08624100\nwall_ms: 0.08532100\nwall_ms: 0.08520100\nwall_ms: 0.08524000\nwall_ms: 0.08560100\nwall_ms: 0.08528100\nwall_ms: 0.08484100\nwall_ms: 0.08588100\nwall_ms: 0.08624100\nwall_ms: 0.08532000\nwall_ms: 0.08536100\nwall_ms: 0.08520100\nwall_ms: 0.08472100\nwall_ms: 0.08420100\nwall_ms: 0.08436000\nwall_ms: 0.08452100\nwall_ms: 0.08432100\nwall_ms: 0.08452100\nwall_ms: 0.08452100\nwall_ms: 0.08428100\nwall_ms: 0.08440000\nwall_ms: 0.08416100\nwall_ms: 0.08420100\nwall_ms: 0.08456100\nwall_ms: 0.08332100\nwall_ms: 0.08356000\nwall_ms: 0.08344100\nwall_ms: 0.08308100\nwall_ms: 0.08356100\nwall_ms: 0.08320100\nwall_ms: 0.08332000\nwall_ms: 0.08336100\nwall_ms: 0.08336100\nwall_ms: 0.08328100\nwall_ms: 0.08388100\nwall_ms: 0.08324000\nwall_ms: 0.08348000\nwall_ms: 0.08324100\nwall_ms: 0.08312100\nmedian_ms: 0.08706100\ncase_ms: M=19048,N=2112,K=768 0.08706100\n\n[aiter] import [module_aiter_core] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s06/u/aiter/jit/module_aiter_core.so\n[aiter] import [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s06/u/aiter/jit/module_gemm_a8w8_blockscale_tune.so\n",
+    "round": 2
+  },
+  {
+    "campaign_id": "s01-u",
+    "shape_id": "s01",
+    "start_kind": "origami",
+    "returncode": 0,
+    "median_ms": 0.01568,
+    "elapsed_sec": 3.471,
+    "tail": "ms: 0.01584000\nwall_ms: 0.01612000\nwall_ms: 0.01676100\nwall_ms: 0.01660000\nwall_ms: 0.01620000\nwall_ms: 0.01584000\nwall_ms: 0.01564000\nwall_ms: 0.01664000\nwall_ms: 0.01532100\nwall_ms: 0.01612000\nwall_ms: 0.01584000\nwall_ms: 0.01536000\nwall_ms: 0.01572000\nwall_ms: 0.01540000\nwall_ms: 0.01596000\nwall_ms: 0.01648000\nwall_ms: 0.01564000\nwall_ms: 0.01536000\nwall_ms: 0.01696000\nwall_ms: 0.01564100\nwall_ms: 0.01608000\nwall_ms: 0.01564000\nwall_ms: 0.01604000\nwall_ms: 0.01580000\nwall_ms: 0.01596000\nwall_ms: 0.01576100\nwall_ms: 0.01600000\nwall_ms: 0.01552000\nwall_ms: 0.01548000\nwall_ms: 0.01568000\nwall_ms: 0.01600000\nwall_ms: 0.01608000\nwall_ms: 0.01564000\nwall_ms: 0.01636000\nwall_ms: 0.01684000\nwall_ms: 0.01552000\nwall_ms: 0.01540100\nwall_ms: 0.01872000\nwall_ms: 0.01392000\nwall_ms: 0.01492000\nwall_ms: 0.01560000\nwall_ms: 0.01544000\nwall_ms: 0.01560100\nmedian_ms: 0.01568000\ncase_ms: primary 0.01568000\n\n[aiter] import [module_aiter_core] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s01/u/aiter/jit/module_aiter_core.so\n[aiter] import [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s01/u/aiter/jit/module_gemm_a8w8_blockscale_tune.so\n",
+    "round": 3
+  },
+  {
+    "campaign_id": "s01-v",
+    "shape_id": "s01",
+    "start_kind": "default",
+    "returncode": 0,
+    "median_ms": 0.01526,
+    "elapsed_sec": 3.392,
+    "tail": "ms: 0.01516000\nwall_ms: 0.01520000\nwall_ms: 0.01736000\nwall_ms: 0.01588000\nwall_ms: 0.01536000\nwall_ms: 0.01508000\nwall_ms: 0.01536000\nwall_ms: 0.01692100\nwall_ms: 0.01488000\nwall_ms: 0.01572000\nwall_ms: 0.01540000\nwall_ms: 0.01540000\nwall_ms: 0.01552000\nwall_ms: 0.01512100\nwall_ms: 0.01508000\nwall_ms: 0.01544000\nwall_ms: 0.01532000\nwall_ms: 0.01504000\nwall_ms: 0.01872000\nwall_ms: 0.01460000\nwall_ms: 0.01512000\nwall_ms: 0.01544000\nwall_ms: 0.01536000\nwall_ms: 0.01680000\nwall_ms: 0.01552100\nwall_ms: 0.01452000\nwall_ms: 0.01464000\nwall_ms: 0.01464000\nwall_ms: 0.01460000\nwall_ms: 0.01480000\nwall_ms: 0.01460100\nwall_ms: 0.01528000\nwall_ms: 0.01460000\nwall_ms: 0.01448000\nwall_ms: 0.01740000\nwall_ms: 0.01516000\nwall_ms: 0.01500100\nwall_ms: 0.01600000\nwall_ms: 0.01480000\nwall_ms: 0.01540000\nwall_ms: 0.01508000\nwall_ms: 0.01560000\nwall_ms: 0.01536100\nmedian_ms: 0.01526000\ncase_ms: primary 0.01526000\n\n[aiter] import [module_aiter_core] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s01/v/aiter/jit/module_aiter_core.so\n[aiter] import [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s01/v/aiter/jit/module_gemm_a8w8_blockscale_tune.so\n",
+    "round": 3
+  },
+  {
+    "campaign_id": "s02-u",
+    "shape_id": "s02",
+    "start_kind": "origami",
+    "returncode": 0,
+    "median_ms": 0.0144605,
+    "elapsed_sec": 3.455,
+    "tail": "ms: 0.01536000\nwall_ms: 0.01500000\nwall_ms: 0.01556100\nwall_ms: 0.01828000\nwall_ms: 0.01188000\nwall_ms: 0.01444000\nwall_ms: 0.01648000\nwall_ms: 0.01456000\nwall_ms: 0.01480000\nwall_ms: 0.01504000\nwall_ms: 0.01600000\nwall_ms: 0.01360000\nwall_ms: 0.01428000\nwall_ms: 0.01452100\nwall_ms: 0.01684000\nwall_ms: 0.01380000\nwall_ms: 0.01488000\nwall_ms: 0.01196000\nwall_ms: 0.01528000\nwall_ms: 0.01444100\nwall_ms: 0.01428000\nwall_ms: 0.01472000\nwall_ms: 0.01432000\nwall_ms: 0.01456000\nwall_ms: 0.01476000\nwall_ms: 0.01480000\nwall_ms: 0.01472000\nwall_ms: 0.01436000\nwall_ms: 0.01548000\nwall_ms: 0.01540000\nwall_ms: 0.01452100\nwall_ms: 0.01460000\nwall_ms: 0.01432000\nwall_ms: 0.01432000\nwall_ms: 0.01520000\nwall_ms: 0.01436000\nwall_ms: 0.01492100\nwall_ms: 0.01432000\nwall_ms: 0.01420000\nwall_ms: 0.01424000\nwall_ms: 0.01408000\nwall_ms: 0.01428000\nwall_ms: 0.01408000\nmedian_ms: 0.01446050\ncase_ms: primary 0.01446050\n\n[aiter] import [module_aiter_core] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s02/u/aiter/jit/module_aiter_core.so\n[aiter] import [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s02/u/aiter/jit/module_gemm_a8w8_blockscale_tune.so\n",
+    "round": 3
+  },
+  {
+    "campaign_id": "s02-v",
+    "shape_id": "s02",
+    "start_kind": "default",
+    "returncode": 0,
+    "median_ms": 0.01442,
+    "elapsed_sec": 3.408,
+    "tail": "6000\nwall_ms: 0.01480000\nwall_ms: 0.01548000\nwall_ms: 0.01476000\nwall_ms: 0.01480000\nwall_ms: 0.01444000\nwall_ms: 0.01556000\nwall_ms: 0.01420100\nwall_ms: 0.01496000\nwall_ms: 0.01432000\nwall_ms: 0.01444000\nwall_ms: 0.01508000\nwall_ms: 0.01408000\nwall_ms: 0.01476100\nwall_ms: 0.01464000\nwall_ms: 0.01400000\nwall_ms: 0.01452000\nwall_ms: 0.01504000\nwall_ms: 0.01312100\nwall_ms: 0.01488000\nwall_ms: 0.01388000\nwall_ms: 0.01440000\nwall_ms: 0.01452000\nwall_ms: 0.01548000\nwall_ms: 0.01444100\nwall_ms: 0.01364000\nwall_ms: 0.01460000\nwall_ms: 0.01476000\nwall_ms: 0.01412000\nwall_ms: 0.01608000\nwall_ms: 0.01420100\nwall_ms: 0.01392000\nwall_ms: 0.01452000\nwall_ms: 0.01428000\nwall_ms: 0.01464000\nwall_ms: 0.01412100\nwall_ms: 0.01444000\nwall_ms: 0.01388000\nwall_ms: 0.01432000\nwall_ms: 0.01408000\nwall_ms: 0.01404000\nwall_ms: 0.01412100\nwall_ms: 0.01424000\nmedian_ms: 0.01442000\ncase_ms: M=55,N=2112,K=768 0.01442000\n\n[aiter] import [module_aiter_core] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s02/v/aiter/jit/module_aiter_core.so\n[aiter] import [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s02/v/aiter/jit/module_gemm_a8w8_blockscale_tune.so\n",
+    "round": 3
+  },
+  {
+    "campaign_id": "s03-u",
+    "shape_id": "s03",
+    "start_kind": "origami",
+    "returncode": 0,
+    "median_ms": 0.02132,
+    "elapsed_sec": 3.484,
+    "tail": "00\nwall_ms: 0.02128000\nwall_ms: 0.02128000\nwall_ms: 0.02128100\nwall_ms: 0.02108000\nwall_ms: 0.02124000\nwall_ms: 0.02120000\nwall_ms: 0.02120000\nwall_ms: 0.02132100\nwall_ms: 0.02112000\nwall_ms: 0.02136000\nwall_ms: 0.02272000\nwall_ms: 0.02152100\nwall_ms: 0.02140000\nwall_ms: 0.02132000\nwall_ms: 0.02128000\nwall_ms: 0.02148000\nwall_ms: 0.02136000\nwall_ms: 0.02128000\nwall_ms: 0.02124000\nwall_ms: 0.02128000\nwall_ms: 0.02120100\nwall_ms: 0.02124000\nwall_ms: 0.02144000\nwall_ms: 0.02120000\nwall_ms: 0.02116000\nwall_ms: 0.02140000\nwall_ms: 0.02128000\nwall_ms: 0.02132000\nwall_ms: 0.02136000\nwall_ms: 0.02128100\nwall_ms: 0.02140000\nwall_ms: 0.02140000\nwall_ms: 0.02204000\nwall_ms: 0.02136100\nwall_ms: 0.02096000\nwall_ms: 0.02096000\nwall_ms: 0.02088000\nwall_ms: 0.02420000\nwall_ms: 0.02112100\nwall_ms: 0.02100000\nwall_ms: 0.02108000\nwall_ms: 0.02116000\nmedian_ms: 0.02132000\ncase_ms: M=86,N=20480,K=2048 0.02132000\n\n[aiter] import [module_aiter_core] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s03/u/aiter/jit/module_aiter_core.so\n[aiter] import [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s03/u/aiter/jit/module_gemm_a8w8_blockscale_tune.so\n",
+    "round": 3
+  },
+  {
+    "campaign_id": "s03-v",
+    "shape_id": "s03",
+    "start_kind": "default",
+    "returncode": 0,
+    "median_ms": 0.02352,
+    "elapsed_sec": 3.46,
+    "tail": "ms: 0.02368000\nwall_ms: 0.02352000\nwall_ms: 0.02340100\nwall_ms: 0.02344000\nwall_ms: 0.02340000\nwall_ms: 0.02336000\nwall_ms: 0.02468100\nwall_ms: 0.02352000\nwall_ms: 0.02340000\nwall_ms: 0.02360000\nwall_ms: 0.02340100\nwall_ms: 0.02364000\nwall_ms: 0.02352000\nwall_ms: 0.02380000\nwall_ms: 0.02344100\nwall_ms: 0.02340000\nwall_ms: 0.02368000\nwall_ms: 0.02368000\nwall_ms: 0.02336100\nwall_ms: 0.02728000\nwall_ms: 0.02328000\nwall_ms: 0.02316000\nwall_ms: 0.02308100\nwall_ms: 0.02328000\nwall_ms: 0.02312000\nwall_ms: 0.02332000\nwall_ms: 0.02328100\nwall_ms: 0.02336000\nwall_ms: 0.02340000\nwall_ms: 0.02336000\nwall_ms: 0.02336000\nwall_ms: 0.02344000\nwall_ms: 0.02320000\nwall_ms: 0.02312000\nwall_ms: 0.02316000\nwall_ms: 0.02304100\nwall_ms: 0.02296000\nwall_ms: 0.02296000\nwall_ms: 0.02292000\nwall_ms: 0.02320100\nwall_ms: 0.02328000\nwall_ms: 0.02320000\nwall_ms: 0.02336000\nmedian_ms: 0.02352000\ncase_ms: primary 0.02352000\n\n[aiter] import [module_aiter_core] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s03/v/aiter/jit/module_aiter_core.so\n[aiter] import [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s03/v/aiter/jit/module_gemm_a8w8_blockscale_tune.so\n",
+    "round": 3
+  },
+  {
+    "campaign_id": "s04-u",
+    "shape_id": "s04",
+    "start_kind": "origami",
+    "returncode": 0,
+    "median_ms": 0.0266,
+    "elapsed_sec": 3.427,
+    "tail": "00\nwall_ms: 0.02692000\nwall_ms: 0.02648100\nwall_ms: 0.02632000\nwall_ms: 0.02648000\nwall_ms: 0.02660000\nwall_ms: 0.02644100\nwall_ms: 0.02664000\nwall_ms: 0.02652000\nwall_ms: 0.02648000\nwall_ms: 0.02656100\nwall_ms: 0.02648000\nwall_ms: 0.02660000\nwall_ms: 0.02688100\nwall_ms: 0.02656000\nwall_ms: 0.02680000\nwall_ms: 0.02684000\nwall_ms: 0.02680100\nwall_ms: 0.02640000\nwall_ms: 0.02656000\nwall_ms: 0.02780100\nwall_ms: 0.02656000\nwall_ms: 0.02628000\nwall_ms: 0.02640000\nwall_ms: 0.02660100\nwall_ms: 0.02624000\nwall_ms: 0.02620000\nwall_ms: 0.02628000\nwall_ms: 0.02644100\nwall_ms: 0.02612000\nwall_ms: 0.02624000\nwall_ms: 0.02648000\nwall_ms: 0.02636000\nwall_ms: 0.02616000\nwall_ms: 0.02616000\nwall_ms: 0.02600100\nwall_ms: 0.02588000\nwall_ms: 0.02652000\nwall_ms: 0.02588000\nwall_ms: 0.02644100\nwall_ms: 0.02612000\nwall_ms: 0.02612000\nwall_ms: 0.02620000\nmedian_ms: 0.02660000\ncase_ms: M=887,N=4352,K=2304 0.02660000\n\n[aiter] import [module_aiter_core] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s04/u/aiter/jit/module_aiter_core.so\n[aiter] import [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s04/u/aiter/jit/module_gemm_a8w8_blockscale_tune.so\n",
+    "round": 3
+  },
+  {
+    "campaign_id": "s04-v",
+    "shape_id": "s04",
+    "start_kind": "default",
+    "returncode": 0,
+    "median_ms": 0.02644,
+    "elapsed_sec": 3.424,
+    "tail": "00\nwall_ms: 0.02648000\nwall_ms: 0.02640000\nwall_ms: 0.02800000\nwall_ms: 0.02632000\nwall_ms: 0.02668100\nwall_ms: 0.02652000\nwall_ms: 0.02712000\nwall_ms: 0.02656000\nwall_ms: 0.02592000\nwall_ms: 0.02628000\nwall_ms: 0.02612000\nwall_ms: 0.02640100\nwall_ms: 0.02664000\nwall_ms: 0.02624000\nwall_ms: 0.02608000\nwall_ms: 0.02628100\nwall_ms: 0.02612000\nwall_ms: 0.02600000\nwall_ms: 0.02632100\nwall_ms: 0.02616000\nwall_ms: 0.02628000\nwall_ms: 0.02624000\nwall_ms: 0.02620100\nwall_ms: 0.02600000\nwall_ms: 0.02600000\nwall_ms: 0.02628100\nwall_ms: 0.02624000\nwall_ms: 0.02620000\nwall_ms: 0.02644000\nwall_ms: 0.02628100\nwall_ms: 0.02632000\nwall_ms: 0.02616000\nwall_ms: 0.02600000\nwall_ms: 0.02572000\nwall_ms: 0.02604000\nwall_ms: 0.02592000\nwall_ms: 0.02676100\nwall_ms: 0.02608000\nwall_ms: 0.02600000\nwall_ms: 0.02604000\nwall_ms: 0.02672100\nwall_ms: 0.02596000\nmedian_ms: 0.02644000\ncase_ms: M=887,N=4352,K=2304 0.02644000\n\n[aiter] import [module_aiter_core] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s04/v/aiter/jit/module_aiter_core.so\n[aiter] import [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s04/v/aiter/jit/module_gemm_a8w8_blockscale_tune.so\n",
+    "round": 3
+  },
+  {
+    "campaign_id": "s05-u",
+    "shape_id": "s05",
+    "start_kind": "origami",
+    "returncode": 0,
+    "median_ms": 0.04132,
+    "elapsed_sec": 3.484,
+    "tail": "0\nwall_ms: 0.04164000\nwall_ms: 0.04196100\nwall_ms: 0.04216000\nwall_ms: 0.04208000\nwall_ms: 0.04180100\nwall_ms: 0.04152000\nwall_ms: 0.04136100\nwall_ms: 0.04100000\nwall_ms: 0.04188000\nwall_ms: 0.04224000\nwall_ms: 0.04236000\nwall_ms: 0.04176100\nwall_ms: 0.04208000\nwall_ms: 0.04176100\nwall_ms: 0.04144000\nwall_ms: 0.04132000\nwall_ms: 0.04192100\nwall_ms: 0.04204000\nwall_ms: 0.04204100\nwall_ms: 0.04184000\nwall_ms: 0.04264000\nwall_ms: 0.04176000\nwall_ms: 0.04176000\nwall_ms: 0.04080100\nwall_ms: 0.04204000\nwall_ms: 0.04152100\nwall_ms: 0.04148000\nwall_ms: 0.04144000\nwall_ms: 0.04172100\nwall_ms: 0.04116000\nwall_ms: 0.04120100\nwall_ms: 0.04080000\nwall_ms: 0.04132000\nwall_ms: 0.04128100\nwall_ms: 0.04120000\nwall_ms: 0.04148100\nwall_ms: 0.04132000\nwall_ms: 0.04100000\nwall_ms: 0.04104100\nwall_ms: 0.04076000\nwall_ms: 0.04124100\nwall_ms: 0.04160000\nmedian_ms: 0.04132000\ncase_ms: M=1741,N=4352,K=2304 0.04132000\n\n[aiter] import [module_aiter_core] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s05/u/aiter/jit/module_aiter_core.so\n[aiter] import [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s05/u/aiter/jit/module_gemm_a8w8_blockscale_tune.so\n",
+    "round": 3
+  },
+  {
+    "campaign_id": "s05-v",
+    "shape_id": "s05",
+    "start_kind": "default",
+    "returncode": 0,
+    "median_ms": 0.04108,
+    "elapsed_sec": 3.5,
+    "tail": "s: 0.04104000\nwall_ms: 0.04108100\nwall_ms: 0.04280000\nwall_ms: 0.04096000\nwall_ms: 0.04060100\nwall_ms: 0.04132000\nwall_ms: 0.04224100\nwall_ms: 0.04140000\nwall_ms: 0.04144100\nwall_ms: 0.04140000\nwall_ms: 0.04152000\nwall_ms: 0.04128100\nwall_ms: 0.04068000\nwall_ms: 0.04140100\nwall_ms: 0.04140000\nwall_ms: 0.04144000\nwall_ms: 0.04136000\nwall_ms: 0.04152000\nwall_ms: 0.04096100\nwall_ms: 0.04104000\nwall_ms: 0.04056100\nwall_ms: 0.04132000\nwall_ms: 0.04156000\nwall_ms: 0.04140100\nwall_ms: 0.04352000\nwall_ms: 0.04164100\nwall_ms: 0.04144000\nwall_ms: 0.04072100\nwall_ms: 0.04072000\nwall_ms: 0.04120000\nwall_ms: 0.04132100\nwall_ms: 0.04104000\nwall_ms: 0.04104100\nwall_ms: 0.04100000\nwall_ms: 0.04076100\nwall_ms: 0.04056000\nwall_ms: 0.04028000\nwall_ms: 0.04092100\nwall_ms: 0.04112000\nwall_ms: 0.04116100\nwall_ms: 0.04112000\nmedian_ms: 0.04108000\ncase_ms: primary 0.04108000\ncase_ms: M=1741,N=4352,K=2304 0.04108000\n\n[aiter] import [module_aiter_core] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s05/v/aiter/jit/module_aiter_core.so\n[aiter] import [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s05/v/aiter/jit/module_gemm_a8w8_blockscale_tune.so\n",
+    "round": 3
+  },
+  {
+    "campaign_id": "s06-u",
+    "shape_id": "s06",
+    "start_kind": "origami",
+    "returncode": 0,
+    "median_ms": 0.0865805,
+    "elapsed_sec": 3.456,
+    "tail": "0\nwall_ms: 0.08680100\nwall_ms: 0.08624100\nwall_ms: 0.08640100\nwall_ms: 0.08604100\nwall_ms: 0.08648000\nwall_ms: 0.08660000\nwall_ms: 0.08656100\nwall_ms: 0.08552100\nwall_ms: 0.08536100\nwall_ms: 0.08528100\nwall_ms: 0.08544000\nwall_ms: 0.08492100\nwall_ms: 0.08580100\nwall_ms: 0.08544100\nwall_ms: 0.08556100\nwall_ms: 0.08536100\nwall_ms: 0.08544000\nwall_ms: 0.08532100\nwall_ms: 0.08492100\nwall_ms: 0.08432100\nwall_ms: 0.08448100\nwall_ms: 0.08432100\nwall_ms: 0.08432000\nwall_ms: 0.08428100\nwall_ms: 0.08420100\nwall_ms: 0.08436100\nwall_ms: 0.08436100\nwall_ms: 0.08408000\nwall_ms: 0.08744100\nwall_ms: 0.08436100\nwall_ms: 0.08340100\nwall_ms: 0.08340100\nwall_ms: 0.08336100\nwall_ms: 0.08324000\nwall_ms: 0.08348100\nwall_ms: 0.08316100\nwall_ms: 0.08324100\nwall_ms: 0.08356100\nwall_ms: 0.08332000\nwall_ms: 0.08332100\nwall_ms: 0.08320100\nwall_ms: 0.08348100\nmedian_ms: 0.08658050\ncase_ms: M=19048,N=2112,K=768 0.08658050\n\n[aiter] import [module_aiter_core] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s06/u/aiter/jit/module_aiter_core.so\n[aiter] import [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s06/u/aiter/jit/module_gemm_a8w8_blockscale_tune.so\n",
+    "round": 3
+  },
+  {
+    "campaign_id": "s06-v",
+    "shape_id": "s06",
+    "start_kind": "default",
+    "returncode": 0,
+    "median_ms": 0.088541,
+    "elapsed_sec": 3.496,
+    "tail": "ms: 0.08484100\nwall_ms: 0.08524000\nwall_ms: 0.08468100\nwall_ms: 0.08488100\nwall_ms: 0.08476100\nwall_ms: 0.08444100\nwall_ms: 0.08388000\nwall_ms: 0.08384100\nwall_ms: 0.08388100\nwall_ms: 0.08376100\nwall_ms: 0.08360100\nwall_ms: 0.08388100\nwall_ms: 0.08384000\nwall_ms: 0.08392100\nwall_ms: 0.08392100\nwall_ms: 0.08392100\nwall_ms: 0.08404100\nwall_ms: 0.08392000\nwall_ms: 0.08340100\nwall_ms: 0.08400100\nwall_ms: 0.08356100\nwall_ms: 0.08412100\nwall_ms: 0.08400100\nwall_ms: 0.08388000\nwall_ms: 0.08400100\nwall_ms: 0.08392100\nwall_ms: 0.08352100\nwall_ms: 0.08424100\nwall_ms: 0.08308000\nwall_ms: 0.08304100\nwall_ms: 0.08280100\nwall_ms: 0.08320100\nwall_ms: 0.08312100\nwall_ms: 0.08280000\nwall_ms: 0.08220000\nwall_ms: 0.08280100\nwall_ms: 0.08232100\nwall_ms: 0.08296100\nwall_ms: 0.08300100\nwall_ms: 0.08220000\nwall_ms: 0.08180100\nwall_ms: 0.08196100\nwall_ms: 0.08128100\nmedian_ms: 0.08854100\ncase_ms: primary 0.08854100\n\n[aiter] import [module_aiter_core] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s06/v/aiter/jit/module_aiter_core.so\n[aiter] import [module_gemm_a8w8_blockscale_tune] under /home/demantri/origami_bench/experiments/kernelforge_ab/worktrees/s06/v/aiter/jit/module_gemm_a8w8_blockscale_tune.so\n",
+    "round": 3
+  }
+]

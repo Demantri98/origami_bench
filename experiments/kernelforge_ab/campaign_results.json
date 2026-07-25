@@ -1,0 +1,534 @@
+{
+  "campaigns": [
+    {
+      "run_order": 1,
+      "campaign_id": "s01-v",
+      "shape_id": "s01",
+      "arm_id": "v",
+      "start_kind": "default",
+      "M": 10,
+      "N": 4352,
+      "K": 2304,
+      "source_kernel_id": 7,
+      "oracle_kernel_id": 8,
+      "prior_origami_speedup": 1.1283901468,
+      "returncode": 0,
+      "elapsed_sec": 3845.155,
+      "experiment_id": "be9857ee",
+      "baseline_ms": 0.0154,
+      "best_ms": 0.0154,
+      "improved": false,
+      "speedup_from_start": 1.0,
+      "final_over_oracle": 0.9579497387409803,
+      "iterations_recorded": 0,
+      "kept_iterations": 0,
+      "source_guard_ok": true,
+      "initial_template_name": "a8w8_blockscale_1x128x128_256x16x128x256_16x16_16x16_1x2_16x16x1_16x16x1_1x16x1x16_8_1x2_intrawave_v1",
+      "final_slot0_sha256": "45a8e260d75fe17f910454dfea0c2768ab6487cdf7abff7c96c72d692ebe7d6d",
+      "final_slot0": "0:   KernelInstance(256,     1,   128,   128,    16,   128,   256,  16,  16,  16,   16,    1,    2,     [16, 16, 1],     [16, 16, 1],           1,           2,                   [1, 16, 1, 16],             [8],     \"Intrawave\",                  1,),"
+    },
+    {
+      "run_order": 2,
+      "campaign_id": "s01-u",
+      "shape_id": "s01",
+      "arm_id": "u",
+      "start_kind": "origami",
+      "M": 10,
+      "N": 4352,
+      "K": 2304,
+      "source_kernel_id": 8,
+      "oracle_kernel_id": 8,
+      "prior_origami_speedup": 1.1283901468,
+      "returncode": 0,
+      "elapsed_sec": 7074.329,
+      "experiment_id": "32fb4e59",
+      "baseline_ms": 0.016,
+      "best_ms": 0.0155,
+      "improved": true,
+      "speedup_from_start": 1.032258064516129,
+      "final_over_oracle": 0.9641701915899478,
+      "iterations_recorded": 1,
+      "kept_iterations": 1,
+      "source_guard_ok": true,
+      "initial_template_name": "a8w8_blockscale_1x128x128_256x16x64x256_16x16_16x16_1x1_16x16x1_16x16x1_1x16x1x16_4_1x1_intrawave_v1",
+      "final_slot0_sha256": "4a0b1773dd93780f09cd5b643f246453d82dc2054ad825f96eebd13bd0c1d1a6",
+      "final_slot0": "0:   KernelInstance(256,     1,   128,   128,    32,    32,   128,  16,  16,  16,   16,    1,    1,     [ 8, 32, 1],     [ 8, 32, 1],           1,           1,                   [1, 32, 1,  8],             [4],     \"Intrawave\",                  3,),"
+    },
+    {
+      "run_order": 3,
+      "campaign_id": "s02-u",
+      "shape_id": "s02",
+      "arm_id": "u",
+      "start_kind": "origami",
+      "M": 55,
+      "N": 2112,
+      "K": 768,
+      "source_kernel_id": 8,
+      "oracle_kernel_id": 18,
+      "prior_origami_speedup": 1.014300572,
+      "returncode": 0,
+      "elapsed_sec": 5382.079,
+      "experiment_id": "c6268dfe",
+      "baseline_ms": 0.0144,
+      "best_ms": 0.0144,
+      "improved": false,
+      "speedup_from_start": 1.0,
+      "final_over_oracle": null,
+      "iterations_recorded": 1,
+      "kept_iterations": 0,
+      "source_guard_ok": true,
+      "initial_template_name": "a8w8_blockscale_1x128x128_256x16x64x256_16x16_16x16_1x1_16x16x1_16x16x1_1x16x1x16_4_1x1_intrawave_v1",
+      "final_slot0_sha256": "51032fef6bdfd339aa7c23b603bd5367a91e686e54a9783b151d18b4f7eab3be",
+      "final_slot0": "0:   KernelInstance(256,     1,   128,   128,    16,    64,   256,  16,  16,  16,   16,    1,    1,     [16, 16, 1],     [16, 16, 1],           1,           1,                   [1, 16, 1, 16],             [4],     \"Intrawave\",                  1,),"
+    },
+    {
+      "run_order": 4,
+      "campaign_id": "s02-v",
+      "shape_id": "s02",
+      "arm_id": "v",
+      "start_kind": "default",
+      "M": 55,
+      "N": 2112,
+      "K": 768,
+      "source_kernel_id": 7,
+      "oracle_kernel_id": 18,
+      "prior_origami_speedup": 1.014300572,
+      "returncode": 0,
+      "elapsed_sec": 6722.483,
+      "experiment_id": "107813d6",
+      "baseline_ms": 0.0145,
+      "best_ms": 0.0145,
+      "improved": false,
+      "speedup_from_start": 1.0,
+      "final_over_oracle": null,
+      "iterations_recorded": 1,
+      "kept_iterations": 0,
+      "source_guard_ok": true,
+      "initial_template_name": "a8w8_blockscale_1x128x128_256x16x128x256_16x16_16x16_1x2_16x16x1_16x16x1_1x16x1x16_8_1x2_intrawave_v1",
+      "final_slot0_sha256": "45a8e260d75fe17f910454dfea0c2768ab6487cdf7abff7c96c72d692ebe7d6d",
+      "final_slot0": "0:   KernelInstance(256,     1,   128,   128,    16,   128,   256,  16,  16,  16,   16,    1,    2,     [16, 16, 1],     [16, 16, 1],           1,           2,                   [1, 16, 1, 16],             [8],     \"Intrawave\",                  1,),"
+    },
+    {
+      "run_order": 5,
+      "campaign_id": "s03-v",
+      "shape_id": "s03",
+      "arm_id": "v",
+      "start_kind": "default",
+      "M": 86,
+      "N": 20480,
+      "K": 2048,
+      "source_kernel_id": 7,
+      "oracle_kernel_id": 3,
+      "prior_origami_speedup": 1.2213865958,
+      "returncode": 0,
+      "elapsed_sec": 4002.876,
+      "experiment_id": "dda51b4e",
+      "baseline_ms": 0.0328,
+      "best_ms": 0.0236,
+      "improved": true,
+      "speedup_from_start": 1.3898305084745763,
+      "final_over_oracle": null,
+      "iterations_recorded": 2,
+      "kept_iterations": 2,
+      "source_guard_ok": true,
+      "initial_template_name": "a8w8_blockscale_1x128x128_256x16x128x256_16x16_16x16_1x2_16x16x1_16x16x1_1x16x1x16_8_1x2_intrawave_v1",
+      "final_slot0_sha256": "f1c23e2bba63db9b7dbb986086fd1987fb9dfb5b58192bf7c51fe8a7259d94f5",
+      "final_slot0": "0:   KernelInstance(256,     1,   128,   128,    32,   128,   128,  16,  16,  16,   16,    2,    2,     [ 8, 32, 1],     [ 8, 32, 1],           2,           2,                   [1, 16, 1, 16],             [8],     \"Intrawave\",                  3,),"
+    },
+    {
+      "run_order": 6,
+      "campaign_id": "s03-u",
+      "shape_id": "s03",
+      "arm_id": "u",
+      "start_kind": "origami",
+      "M": 86,
+      "N": 20480,
+      "K": 2048,
+      "source_kernel_id": 9,
+      "oracle_kernel_id": 3,
+      "prior_origami_speedup": 1.2213865958,
+      "returncode": 0,
+      "elapsed_sec": 6706.545,
+      "experiment_id": "a60dfbe1",
+      "baseline_ms": 0.0264,
+      "best_ms": 0.0216,
+      "improved": true,
+      "speedup_from_start": 1.222222222222222,
+      "final_over_oracle": null,
+      "iterations_recorded": 2,
+      "kept_iterations": 2,
+      "source_guard_ok": true,
+      "initial_template_name": "a8w8_blockscale_1x128x128_256x32x256x128_16x16_32x32_1x2_8x32x1_8x32x1_1x32x1x8_8_1x1_intrawave_v1",
+      "final_slot0_sha256": "126a8fcf3a995b875ae13cf469c5a445a1dfe2f37f1941ef95835ae11cc14a45",
+      "final_slot0": "0:   KernelInstance(256,     1,   128,   128,    32,   128,   128,  16,  16,  32,   32,    1,    1,     [ 8, 32, 1],     [ 8, 32, 1],           1,           1,                   [1, 32, 1,  8],             [8],     \"Intrawave\",                  3,),"
+    },
+    {
+      "run_order": 7,
+      "campaign_id": "s04-u",
+      "shape_id": "s04",
+      "arm_id": "u",
+      "start_kind": "origami",
+      "M": 887,
+      "N": 4352,
+      "K": 2304,
+      "source_kernel_id": 0,
+      "oracle_kernel_id": 0,
+      "prior_origami_speedup": 2.0575241754,
+      "returncode": 0,
+      "elapsed_sec": 5669.951,
+      "experiment_id": "cbb31a63",
+      "baseline_ms": 0.0266,
+      "best_ms": 0.0266,
+      "improved": false,
+      "speedup_from_start": 1.0,
+      "final_over_oracle": 0.8809113789905947,
+      "iterations_recorded": 1,
+      "kept_iterations": 0,
+      "source_guard_ok": true,
+      "initial_template_name": "a8w8_blockscale_1x128x128_256x128x128x128_16x16_32x32_2x2_8x32x1_8x32x1_1x32x1x8_8_1x1_intrawave_v3",
+      "final_slot0_sha256": "532fa30d962dea52c9f07ec435dfc07ed973415dde42856931987b083587d688",
+      "final_slot0": "0:   KernelInstance(256,     1,   128,   128,   128,   128,   128,  16,  16,  32,   32,    2,    2,     [ 8, 32, 1],     [ 8, 32, 1],           1,           1,                   [1, 32, 1,  8],             [8],     \"Intrawave\",                  3,),"
+    },
+    {
+      "run_order": 8,
+      "campaign_id": "s04-v",
+      "shape_id": "s04",
+      "arm_id": "v",
+      "start_kind": "default",
+      "M": 887,
+      "N": 4352,
+      "K": 2304,
+      "source_kernel_id": 7,
+      "oracle_kernel_id": 0,
+      "prior_origami_speedup": 2.0575241754,
+      "returncode": 0,
+      "elapsed_sec": 5727.282,
+      "experiment_id": "f303641f",
+      "baseline_ms": 0.0617,
+      "best_ms": 0.0268,
+      "improved": true,
+      "speedup_from_start": 2.3022388059701493,
+      "final_over_oracle": 0.8875347728175917,
+      "iterations_recorded": 2,
+      "kept_iterations": 1,
+      "source_guard_ok": true,
+      "initial_template_name": "a8w8_blockscale_1x128x128_256x16x128x256_16x16_16x16_1x2_16x16x1_16x16x1_1x16x1x16_8_1x2_intrawave_v1",
+      "final_slot0_sha256": "532fa30d962dea52c9f07ec435dfc07ed973415dde42856931987b083587d688",
+      "final_slot0": "0:   KernelInstance(256,     1,   128,   128,   128,   128,   128,  16,  16,  32,   32,    2,    2,     [ 8, 32, 1],     [ 8, 32, 1],           1,           1,                   [1, 32, 1,  8],             [8],     \"Intrawave\",                  3,),"
+    },
+    {
+      "run_order": 9,
+      "campaign_id": "s05-v",
+      "shape_id": "s05",
+      "arm_id": "v",
+      "start_kind": "default",
+      "M": 1741,
+      "N": 4352,
+      "K": 2304,
+      "source_kernel_id": 7,
+      "oracle_kernel_id": 0,
+      "prior_origami_speedup": 2.478495973,
+      "returncode": 0,
+      "elapsed_sec": 5767.803,
+      "experiment_id": "95b13c5f",
+      "baseline_ms": 0.1159,
+      "best_ms": 0.0402,
+      "improved": true,
+      "speedup_from_start": 2.883084577114428,
+      "final_over_oracle": 0.9172009400168838,
+      "iterations_recorded": 1,
+      "kept_iterations": 1,
+      "source_guard_ok": true,
+      "initial_template_name": "a8w8_blockscale_1x128x128_256x16x128x256_16x16_16x16_1x2_16x16x1_16x16x1_1x16x1x16_8_1x2_intrawave_v1",
+      "final_slot0_sha256": "532fa30d962dea52c9f07ec435dfc07ed973415dde42856931987b083587d688",
+      "final_slot0": "0:   KernelInstance(256,     1,   128,   128,   128,   128,   128,  16,  16,  32,   32,    2,    2,     [ 8, 32, 1],     [ 8, 32, 1],           1,           1,                   [1, 32, 1,  8],             [8],     \"Intrawave\",                  3,),"
+    },
+    {
+      "run_order": 10,
+      "campaign_id": "s05-u",
+      "shape_id": "s05",
+      "arm_id": "u",
+      "start_kind": "origami",
+      "M": 1741,
+      "N": 4352,
+      "K": 2304,
+      "source_kernel_id": 0,
+      "oracle_kernel_id": 0,
+      "prior_origami_speedup": 2.478495973,
+      "returncode": 0,
+      "elapsed_sec": 5743.156,
+      "experiment_id": "ba2be22d",
+      "baseline_ms": 0.0402,
+      "best_ms": 0.0402,
+      "improved": false,
+      "speedup_from_start": 1.0,
+      "final_over_oracle": 0.9172009400168838,
+      "iterations_recorded": 1,
+      "kept_iterations": 0,
+      "source_guard_ok": true,
+      "initial_template_name": "a8w8_blockscale_1x128x128_256x128x128x128_16x16_32x32_2x2_8x32x1_8x32x1_1x32x1x8_8_1x1_intrawave_v3",
+      "final_slot0_sha256": "532fa30d962dea52c9f07ec435dfc07ed973415dde42856931987b083587d688",
+      "final_slot0": "0:   KernelInstance(256,     1,   128,   128,   128,   128,   128,  16,  16,  32,   32,    2,    2,     [ 8, 32, 1],     [ 8, 32, 1],           1,           1,                   [1, 32, 1,  8],             [8],     \"Intrawave\",                  3,),"
+    },
+    {
+      "run_order": 11,
+      "campaign_id": "s06-u",
+      "shape_id": "s06",
+      "arm_id": "u",
+      "start_kind": "origami",
+      "M": 19048,
+      "N": 2112,
+      "K": 768,
+      "source_kernel_id": 0,
+      "oracle_kernel_id": 0,
+      "prior_origami_speedup": 2.5672079465,
+      "returncode": 0,
+      "elapsed_sec": 6841.165,
+      "experiment_id": "720af25c",
+      "baseline_ms": 0.0966,
+      "best_ms": 0.0926,
+      "improved": true,
+      "speedup_from_start": 1.043196544276458,
+      "final_over_oracle": 1.0732872028466451,
+      "iterations_recorded": 1,
+      "kept_iterations": 1,
+      "source_guard_ok": true,
+      "initial_template_name": "a8w8_blockscale_1x128x128_256x128x128x128_16x16_32x32_2x2_8x32x1_8x32x1_1x32x1x8_8_1x1_intrawave_v3",
+      "final_slot0_sha256": "9a3ae30b3159f88655b024003f294c87e0c4f8924190af2746716d8486443b6e",
+      "final_slot0": "0:   KernelInstance(256,     1,   128,   128,   128,   128,   128,  16,  16,  16,   16,    4,    4,     [ 8, 32, 1],     [ 8, 32, 1],           2,           2,                   [1, 32, 1,  8],             [8],     \"Intrawave\",                  3,),"
+    },
+    {
+      "run_order": 12,
+      "campaign_id": "s06-v",
+      "shape_id": "s06",
+      "arm_id": "v",
+      "start_kind": "default",
+      "M": 19048,
+      "N": 2112,
+      "K": 768,
+      "source_kernel_id": 7,
+      "oracle_kernel_id": 0,
+      "prior_origami_speedup": 2.5672079465,
+      "returncode": 0,
+      "elapsed_sec": 5027.574,
+      "experiment_id": "10e6238c",
+      "baseline_ms": 0.2382,
+      "best_ms": 0.087,
+      "improved": true,
+      "speedup_from_start": 2.7379310344827585,
+      "final_over_oracle": 1.008379985395876,
+      "iterations_recorded": 2,
+      "kept_iterations": 2,
+      "source_guard_ok": true,
+      "initial_template_name": "a8w8_blockscale_1x128x128_256x16x128x256_16x16_16x16_1x2_16x16x1_16x16x1_1x16x1x16_8_1x2_intrawave_v1",
+      "final_slot0_sha256": "565c597759ef49fbf8d5985ef72e4f3f7b4ed147f3506c4fa03104e0a696943a",
+      "final_slot0": "0:   KernelInstance(256,     1,   128,   128,   128,   128,   128,  16,  16,  32,   32,    2,    2,     [ 8, 32, 1],     [ 8, 32, 1],           1,           2,                   [1, 16, 1, 16],             [8],     \"Intrawave\",                  3,),"
+    }
+  ],
+  "curves": {
+    "s01-v": [
+      {
+        "iteration": 0,
+        "best_ms": 0.0154,
+        "decision": "BASELINE"
+      }
+    ],
+    "s01-u": [
+      {
+        "iteration": 0,
+        "best_ms": 0.016,
+        "decision": "BASELINE"
+      },
+      {
+        "iteration": 1,
+        "wall_ms": 0.0155,
+        "best_ms": 0.0155,
+        "decision": "KEEP",
+        "snr_db": 999.0,
+        "notes": "shrink N tile to 32\u00d732 with v3 pipeline to double CU occupancy"
+      }
+    ],
+    "s02-u": [
+      {
+        "iteration": 0,
+        "best_ms": 0.0144,
+        "decision": "BASELINE"
+      },
+      {
+        "iteration": 1,
+        "wall_ms": 0.0146,
+        "best_ms": 0.0144,
+        "decision": "REVERT",
+        "snr_db": 83.8996,
+        "notes": "balanced 32\u00d732 tiling maximizes workgroups while minimizing A/B re-read traffic"
+      }
+    ],
+    "s02-v": [
+      {
+        "iteration": 0,
+        "best_ms": 0.0145,
+        "decision": "BASELINE"
+      },
+      {
+        "iteration": 1,
+        "wall_ms": 0.0144,
+        "best_ms": 0.0145,
+        "decision": "REVERT",
+        "snr_db": 83.8996,
+        "notes": "switch slot 0 to 68-block v3 with N128 full-width epilogue"
+      }
+    ],
+    "s03-v": [
+      {
+        "iteration": 0,
+        "best_ms": 0.0328,
+        "decision": "BASELINE"
+      },
+      {
+        "iteration": 1,
+        "wall_ms": 0.0246,
+        "best_ms": 0.0246,
+        "decision": "KEEP",
+        "snr_db": 84.3506,
+        "notes": "raise MPerBLOCK to 32 to halve redundant weight-matrix reads"
+      },
+      {
+        "iteration": 2,
+        "wall_ms": 0.0236,
+        "best_ms": 0.0236,
+        "decision": "KEEP",
+        "snr_db": 84.3506,
+        "notes": "switch to v3 double-buffered prefetch pipeline (K=128, [8,32,1] loads) on the 16\u00d716 tile"
+      }
+    ],
+    "s03-u": [
+      {
+        "iteration": 0,
+        "best_ms": 0.0264,
+        "decision": "BASELINE"
+      },
+      {
+        "iteration": 1,
+        "wall_ms": 0.0243,
+        "best_ms": 0.0243,
+        "decision": "KEEP",
+        "snr_db": 84.3506,
+        "notes": "shrink tile to 64\u00d764 with v3 pipeline for more parallel workgroups"
+      },
+      {
+        "iteration": 2,
+        "wall_ms": 0.0216,
+        "best_ms": 0.0216,
+        "decision": "KEEP",
+        "snr_db": 84.3506,
+        "notes": "shrink M-tile to 32\u00d7128 with v3 pipeline to cut skinny-M padding waste"
+      }
+    ],
+    "s04-u": [
+      {
+        "iteration": 0,
+        "best_ms": 0.0266,
+        "decision": "BASELINE"
+      },
+      {
+        "iteration": 1,
+        "wall_ms": 0.0264,
+        "best_ms": 0.0266,
+        "decision": "REVERT",
+        "snr_db": 84.3478,
+        "notes": "stack waves along M (MXdlPerWave=1, NXdlPerWave=4) for better MFMA pipelining"
+      }
+    ],
+    "s04-v": [
+      {
+        "iteration": 0,
+        "best_ms": 0.0617,
+        "decision": "BASELINE"
+      },
+      {
+        "iteration": 1,
+        "wall_ms": 0.0268,
+        "best_ms": 0.0268,
+        "decision": "KEEP",
+        "snr_db": 84.3478,
+        "notes": "enlarge block tile to 128\u00d7128\u00d7128 with Intrawave v3 pipeline"
+      },
+      {
+        "iteration": 2,
+        "wall_ms": 0.0264,
+        "best_ms": 0.0268,
+        "decision": "REVERT",
+        "snr_db": 84.3478,
+        "notes": "full-wave single-pass CShuffle with wider coalesced BF16 output stores"
+      }
+    ],
+    "s05-v": [
+      {
+        "iteration": 0,
+        "best_ms": 0.1159,
+        "decision": "BASELINE"
+      },
+      {
+        "iteration": 1,
+        "wall_ms": 0.0402,
+        "best_ms": 0.0402,
+        "decision": "KEEP",
+        "snr_db": 84.1314,
+        "notes": "enlarge slot 0 to a 128\u00d7128\u00d7128 tile on the Intrawave v3 pipeline"
+      }
+    ],
+    "s05-u": [
+      {
+        "iteration": 0,
+        "best_ms": 0.0402,
+        "decision": "BASELINE"
+      },
+      {
+        "iteration": 1,
+        "wall_ms": 0.04,
+        "best_ms": 0.0402,
+        "decision": "REVERT",
+        "snr_db": 84.1314,
+        "notes": "widen CShuffle N-shuffle vector for better-coalesced C write-out"
+      }
+    ],
+    "s06-u": [
+      {
+        "iteration": 0,
+        "best_ms": 0.0966,
+        "decision": "BASELINE"
+      },
+      {
+        "iteration": 1,
+        "wall_ms": 0.0926,
+        "best_ms": 0.0926,
+        "decision": "KEEP",
+        "snr_db": 86.6756,
+        "notes": "switch to 16\u00d716 MFMA with matched CShuffle(2,2) staging"
+      }
+    ],
+    "s06-v": [
+      {
+        "iteration": 0,
+        "best_ms": 0.2382,
+        "decision": "BASELINE"
+      },
+      {
+        "iteration": 1,
+        "wall_ms": 0.0898,
+        "best_ms": 0.0898,
+        "decision": "KEEP",
+        "snr_db": 86.6756,
+        "notes": "enlarge M tile to 128\u00d7128\u00d7128 v3 to slash B-weight DRAM traffic"
+      },
+      {
+        "iteration": 2,
+        "wall_ms": 0.087,
+        "best_ms": 0.087,
+        "decision": "KEEP",
+        "snr_db": 86.6756,
+        "notes": "widen CShuffle epilogue to 64\u00d7128 fully-coalesced C-write strips"
+      }
+    ]
+  }
+}

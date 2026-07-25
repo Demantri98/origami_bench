@@ -1,0 +1,20 @@
+# KernelForge starting-template A/B pilot
+
+Completed campaign artifacts: 0/12
+Complete paired shapes: 0/6
+
+## Paired outcomes
+
+| Shape | M,N,K | Prior start advantage | Origami-start final ms | Default-start final ms | Final O/D | Winner | Same final template |
+|---|---|---:|---:|---:|---:|---|---|
+| s01 | 10,4352,2304 | 1.128x | — | — | — | Incomplete | — |
+| s02 | 55,2112,768 | 1.014x | — | — | — | Incomplete | — |
+| s03 | 86,20480,2048 | 1.221x | — | — | — | Incomplete | — |
+| s04 | 887,4352,2304 | 2.058x | — | — | — | Incomplete | — |
+| s05 | 1741,4352,2304 | 2.478x | — | — | — | Incomplete | — |
+| s06 | 19048,2112,768 | 2.567x | — | — | — | Incomplete | — |
+
+## Pilot summary
+
+- This is a single-campaign-per-arm pilot and is descriptive, not a statistical test.
+- A result below 1.0 means the campaign initialized from Origami ended faster.

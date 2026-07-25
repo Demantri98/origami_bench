@@ -1,0 +1,921 @@
+{
+ "sampled": [
+  {
+   "dataset": "tuned",
+   "M": 2,
+   "N": 4096,
+   "K": 3072,
+   "origami_kid": 6,
+   "oracle_kid": 8,
+   "default_kid": 7,
+   "bucket": "<=16"
+  },
+  {
+   "dataset": "tuned",
+   "M": 16,
+   "N": 3072,
+   "K": 3072,
+   "origami_kid": 8,
+   "oracle_kid": 8,
+   "default_kid": 7,
+   "bucket": "<=16"
+  },
+  {
+   "dataset": "tuned",
+   "M": 32,
+   "N": 3072,
+   "K": 3072,
+   "origami_kid": 13,
+   "oracle_kid": 8,
+   "default_kid": 7,
+   "bucket": "16-64"
+  },
+  {
+   "dataset": "tuned",
+   "M": 48,
+   "N": 8192,
+   "K": 3072,
+   "origami_kid": 7,
+   "oracle_kid": 7,
+   "default_kid": 7,
+   "bucket": "16-64"
+  },
+  {
+   "dataset": "tuned",
+   "M": 176,
+   "N": 2048,
+   "K": 3072,
+   "origami_kid": 13,
+   "oracle_kid": 7,
+   "default_kid": 7,
+   "bucket": "64-256"
+  },
+  {
+   "dataset": "tuned",
+   "M": 128,
+   "N": 4096,
+   "K": 3072,
+   "origami_kid": 13,
+   "oracle_kid": 13,
+   "default_kid": 7,
+   "bucket": "64-256"
+  },
+  {
+   "dataset": "tuned",
+   "M": 448,
+   "N": 3072,
+   "K": 6144,
+   "origami_kid": 17,
+   "oracle_kid": 2,
+   "default_kid": 7,
+   "bucket": "256-1024"
+  },
+  {
+   "dataset": "tuned",
+   "M": 1001,
+   "N": 3072,
+   "K": 3072,
+   "origami_kid": 0,
+   "oracle_kid": 0,
+   "default_kid": 7,
+   "bucket": "256-1024"
+  },
+  {
+   "dataset": "tuned",
+   "M": 2001,
+   "N": 3072,
+   "K": 3072,
+   "origami_kid": 17,
+   "oracle_kid": 2,
+   "default_kid": 7,
+   "bucket": "1024-4096"
+  },
+  {
+   "dataset": "tuned",
+   "M": 2816,
+   "N": 8192,
+   "K": 3072,
+   "origami_kid": 0,
+   "oracle_kid": 0,
+   "default_kid": 7,
+   "bucket": "1024-4096"
+  },
+  {
+   "dataset": "tuned",
+   "M": 5091,
+   "N": 2048,
+   "K": 3072,
+   "origami_kid": 0,
+   "oracle_kid": 2,
+   "default_kid": 7,
+   "bucket": ">4096"
+  },
+  {
+   "dataset": "tuned",
+   "M": 12800,
+   "N": 4096,
+   "K": 3072,
+   "origami_kid": 0,
+   "oracle_kid": 0,
+   "default_kid": 7,
+   "bucket": ">4096"
+  },
+  {
+   "dataset": "novel_nk",
+   "M": 10,
+   "N": 4352,
+   "K": 2304,
+   "origami_kid": 8,
+   "oracle_kid": 8,
+   "default_kid": 7,
+   "bucket": "<=16"
+  },
+  {
+   "dataset": "novel_nk",
+   "M": 55,
+   "N": 2112,
+   "K": 768,
+   "origami_kid": 8,
+   "oracle_kid": 18,
+   "default_kid": 7,
+   "bucket": "16-64"
+  },
+  {
+   "dataset": "novel_nk",
+   "M": 23,
+   "N": 4352,
+   "K": 2304,
+   "origami_kid": 13,
+   "oracle_kid": 8,
+   "default_kid": 7,
+   "bucket": "16-64"
+  },
+  {
+   "dataset": "novel_nk",
+   "M": 190,
+   "N": 2048,
+   "K": 8192,
+   "origami_kid": 18,
+   "oracle_kid": 5,
+   "default_kid": 7,
+   "bucket": "64-256"
+  },
+  {
+   "dataset": "novel_nk",
+   "M": 176,
+   "N": 36864,
+   "K": 18432,
+   "origami_kid": 14,
+   "oracle_kid": 14,
+   "default_kid": 7,
+   "bucket": "64-256"
+  },
+  {
+   "dataset": "novel_nk",
+   "M": 360,
+   "N": 2048,
+   "K": 8192,
+   "origami_kid": 0,
+   "oracle_kid": 3,
+   "default_kid": 7,
+   "bucket": "256-1024"
+  },
+  {
+   "dataset": "novel_nk",
+   "M": 406,
+   "N": 2112,
+   "K": 768,
+   "origami_kid": 18,
+   "oracle_kid": 18,
+   "default_kid": 7,
+   "bucket": "256-1024"
+  },
+  {
+   "dataset": "novel_nk",
+   "M": 2660,
+   "N": 6400,
+   "K": 512,
+   "origami_kid": 14,
+   "oracle_kid": 18,
+   "default_kid": 7,
+   "bucket": "1024-4096"
+  },
+  {
+   "dataset": "novel_nk",
+   "M": 2694,
+   "N": 20480,
+   "K": 6400,
+   "origami_kid": 0,
+   "oracle_kid": 0,
+   "default_kid": 7,
+   "bucket": "1024-4096"
+  },
+  {
+   "dataset": "novel_nk",
+   "M": 7903,
+   "N": 128,
+   "K": 4608,
+   "origami_kid": 12,
+   "oracle_kid": 3,
+   "default_kid": 7,
+   "bucket": ">4096"
+  },
+  {
+   "dataset": "novel_nk",
+   "M": 15124,
+   "N": 32768,
+   "K": 2176,
+   "origami_kid": 0,
+   "oracle_kid": 0,
+   "default_kid": 7,
+   "bucket": ">4096"
+  }
+ ],
+ "jobs": [
+  {
+   "idx": 0,
+   "dataset": "tuned",
+   "M": 2,
+   "N": 4096,
+   "K": 3072,
+   "kid": 6,
+   "variants": [
+    "origami"
+   ],
+   "bucket": "<=16"
+  },
+  {
+   "idx": 1,
+   "dataset": "tuned",
+   "M": 2,
+   "N": 4096,
+   "K": 3072,
+   "kid": 8,
+   "variants": [
+    "oracle"
+   ],
+   "bucket": "<=16"
+  },
+  {
+   "idx": 2,
+   "dataset": "tuned",
+   "M": 2,
+   "N": 4096,
+   "K": 3072,
+   "kid": 7,
+   "variants": [
+    "default"
+   ],
+   "bucket": "<=16"
+  },
+  {
+   "idx": 3,
+   "dataset": "tuned",
+   "M": 16,
+   "N": 3072,
+   "K": 3072,
+   "kid": 8,
+   "variants": [
+    "origami",
+    "oracle"
+   ],
+   "bucket": "<=16"
+  },
+  {
+   "idx": 4,
+   "dataset": "tuned",
+   "M": 16,
+   "N": 3072,
+   "K": 3072,
+   "kid": 7,
+   "variants": [
+    "default"
+   ],
+   "bucket": "<=16"
+  },
+  {
+   "idx": 5,
+   "dataset": "tuned",
+   "M": 32,
+   "N": 3072,
+   "K": 3072,
+   "kid": 13,
+   "variants": [
+    "origami"
+   ],
+   "bucket": "16-64"
+  },
+  {
+   "idx": 6,
+   "dataset": "tuned",
+   "M": 32,
+   "N": 3072,
+   "K": 3072,
+   "kid": 8,
+   "variants": [
+    "oracle"
+   ],
+   "bucket": "16-64"
+  },
+  {
+   "idx": 7,
+   "dataset": "tuned",
+   "M": 32,
+   "N": 3072,
+   "K": 3072,
+   "kid": 7,
+   "variants": [
+    "default"
+   ],
+   "bucket": "16-64"
+  },
+  {
+   "idx": 8,
+   "dataset": "tuned",
+   "M": 48,
+   "N": 8192,
+   "K": 3072,
+   "kid": 7,
+   "variants": [
+    "origami",
+    "oracle",
+    "default"
+   ],
+   "bucket": "16-64"
+  },
+  {
+   "idx": 9,
+   "dataset": "tuned",
+   "M": 176,
+   "N": 2048,
+   "K": 3072,
+   "kid": 13,
+   "variants": [
+    "origami"
+   ],
+   "bucket": "64-256"
+  },
+  {
+   "idx": 10,
+   "dataset": "tuned",
+   "M": 176,
+   "N": 2048,
+   "K": 3072,
+   "kid": 7,
+   "variants": [
+    "oracle",
+    "default"
+   ],
+   "bucket": "64-256"
+  },
+  {
+   "idx": 11,
+   "dataset": "tuned",
+   "M": 128,
+   "N": 4096,
+   "K": 3072,
+   "kid": 13,
+   "variants": [
+    "origami",
+    "oracle"
+   ],
+   "bucket": "64-256"
+  },
+  {
+   "idx": 12,
+   "dataset": "tuned",
+   "M": 128,
+   "N": 4096,
+   "K": 3072,
+   "kid": 7,
+   "variants": [
+    "default"
+   ],
+   "bucket": "64-256"
+  },
+  {
+   "idx": 13,
+   "dataset": "tuned",
+   "M": 448,
+   "N": 3072,
+   "K": 6144,
+   "kid": 17,
+   "variants": [
+    "origami"
+   ],
+   "bucket": "256-1024"
+  },
+  {
+   "idx": 14,
+   "dataset": "tuned",
+   "M": 448,
+   "N": 3072,
+   "K": 6144,
+   "kid": 2,
+   "variants": [
+    "oracle"
+   ],
+   "bucket": "256-1024"
+  },
+  {
+   "idx": 15,
+   "dataset": "tuned",
+   "M": 448,
+   "N": 3072,
+   "K": 6144,
+   "kid": 7,
+   "variants": [
+    "default"
+   ],
+   "bucket": "256-1024"
+  },
+  {
+   "idx": 16,
+   "dataset": "tuned",
+   "M": 1001,
+   "N": 3072,
+   "K": 3072,
+   "kid": 0,
+   "variants": [
+    "origami",
+    "oracle"
+   ],
+   "bucket": "256-1024"
+  },
+  {
+   "idx": 17,
+   "dataset": "tuned",
+   "M": 1001,
+   "N": 3072,
+   "K": 3072,
+   "kid": 7,
+   "variants": [
+    "default"
+   ],
+   "bucket": "256-1024"
+  },
+  {
+   "idx": 18,
+   "dataset": "tuned",
+   "M": 2001,
+   "N": 3072,
+   "K": 3072,
+   "kid": 17,
+   "variants": [
+    "origami"
+   ],
+   "bucket": "1024-4096"
+  },
+  {
+   "idx": 19,
+   "dataset": "tuned",
+   "M": 2001,
+   "N": 3072,
+   "K": 3072,
+   "kid": 2,
+   "variants": [
+    "oracle"
+   ],
+   "bucket": "1024-4096"
+  },
+  {
+   "idx": 20,
+   "dataset": "tuned",
+   "M": 2001,
+   "N": 3072,
+   "K": 3072,
+   "kid": 7,
+   "variants": [
+    "default"
+   ],
+   "bucket": "1024-4096"
+  },
+  {
+   "idx": 21,
+   "dataset": "tuned",
+   "M": 2816,
+   "N": 8192,
+   "K": 3072,
+   "kid": 0,
+   "variants": [
+    "origami",
+    "oracle"
+   ],
+   "bucket": "1024-4096"
+  },
+  {
+   "idx": 22,
+   "dataset": "tuned",
+   "M": 2816,
+   "N": 8192,
+   "K": 3072,
+   "kid": 7,
+   "variants": [
+    "default"
+   ],
+   "bucket": "1024-4096"
+  },
+  {
+   "idx": 23,
+   "dataset": "tuned",
+   "M": 5091,
+   "N": 2048,
+   "K": 3072,
+   "kid": 0,
+   "variants": [
+    "origami"
+   ],
+   "bucket": ">4096"
+  },
+  {
+   "idx": 24,
+   "dataset": "tuned",
+   "M": 5091,
+   "N": 2048,
+   "K": 3072,
+   "kid": 2,
+   "variants": [
+    "oracle"
+   ],
+   "bucket": ">4096"
+  },
+  {
+   "idx": 25,
+   "dataset": "tuned",
+   "M": 5091,
+   "N": 2048,
+   "K": 3072,
+   "kid": 7,
+   "variants": [
+    "default"
+   ],
+   "bucket": ">4096"
+  },
+  {
+   "idx": 26,
+   "dataset": "tuned",
+   "M": 12800,
+   "N": 4096,
+   "K": 3072,
+   "kid": 0,
+   "variants": [
+    "origami",
+    "oracle"
+   ],
+   "bucket": ">4096"
+  },
+  {
+   "idx": 27,
+   "dataset": "tuned",
+   "M": 12800,
+   "N": 4096,
+   "K": 3072,
+   "kid": 7,
+   "variants": [
+    "default"
+   ],
+   "bucket": ">4096"
+  },
+  {
+   "idx": 28,
+   "dataset": "novel_nk",
+   "M": 10,
+   "N": 4352,
+   "K": 2304,
+   "kid": 8,
+   "variants": [
+    "origami",
+    "oracle"
+   ],
+   "bucket": "<=16"
+  },
+  {
+   "idx": 29,
+   "dataset": "novel_nk",
+   "M": 10,
+   "N": 4352,
+   "K": 2304,
+   "kid": 7,
+   "variants": [
+    "default"
+   ],
+   "bucket": "<=16"
+  },
+  {
+   "idx": 30,
+   "dataset": "novel_nk",
+   "M": 55,
+   "N": 2112,
+   "K": 768,
+   "kid": 8,
+   "variants": [
+    "origami"
+   ],
+   "bucket": "16-64"
+  },
+  {
+   "idx": 31,
+   "dataset": "novel_nk",
+   "M": 55,
+   "N": 2112,
+   "K": 768,
+   "kid": 18,
+   "variants": [
+    "oracle"
+   ],
+   "bucket": "16-64"
+  },
+  {
+   "idx": 32,
+   "dataset": "novel_nk",
+   "M": 55,
+   "N": 2112,
+   "K": 768,
+   "kid": 7,
+   "variants": [
+    "default"
+   ],
+   "bucket": "16-64"
+  },
+  {
+   "idx": 33,
+   "dataset": "novel_nk",
+   "M": 23,
+   "N": 4352,
+   "K": 2304,
+   "kid": 13,
+   "variants": [
+    "origami"
+   ],
+   "bucket": "16-64"
+  },
+  {
+   "idx": 34,
+   "dataset": "novel_nk",
+   "M": 23,
+   "N": 4352,
+   "K": 2304,
+   "kid": 8,
+   "variants": [
+    "oracle"
+   ],
+   "bucket": "16-64"
+  },
+  {
+   "idx": 35,
+   "dataset": "novel_nk",
+   "M": 23,
+   "N": 4352,
+   "K": 2304,
+   "kid": 7,
+   "variants": [
+    "default"
+   ],
+   "bucket": "16-64"
+  },
+  {
+   "idx": 36,
+   "dataset": "novel_nk",
+   "M": 190,
+   "N": 2048,
+   "K": 8192,
+   "kid": 18,
+   "variants": [
+    "origami"
+   ],
+   "bucket": "64-256"
+  },
+  {
+   "idx": 37,
+   "dataset": "novel_nk",
+   "M": 190,
+   "N": 2048,
+   "K": 8192,
+   "kid": 5,
+   "variants": [
+    "oracle"
+   ],
+   "bucket": "64-256"
+  },
+  {
+   "idx": 38,
+   "dataset": "novel_nk",
+   "M": 190,
+   "N": 2048,
+   "K": 8192,
+   "kid": 7,
+   "variants": [
+    "default"
+   ],
+   "bucket": "64-256"
+  },
+  {
+   "idx": 39,
+   "dataset": "novel_nk",
+   "M": 176,
+   "N": 36864,
+   "K": 18432,
+   "kid": 14,
+   "variants": [
+    "origami",
+    "oracle"
+   ],
+   "bucket": "64-256"
+  },
+  {
+   "idx": 40,
+   "dataset": "novel_nk",
+   "M": 176,
+   "N": 36864,
+   "K": 18432,
+   "kid": 7,
+   "variants": [
+    "default"
+   ],
+   "bucket": "64-256"
+  },
+  {
+   "idx": 41,
+   "dataset": "novel_nk",
+   "M": 360,
+   "N": 2048,
+   "K": 8192,
+   "kid": 0,
+   "variants": [
+    "origami"
+   ],
+   "bucket": "256-1024"
+  },
+  {
+   "idx": 42,
+   "dataset": "novel_nk",
+   "M": 360,
+   "N": 2048,
+   "K": 8192,
+   "kid": 3,
+   "variants": [
+    "oracle"
+   ],
+   "bucket": "256-1024"
+  },
+  {
+   "idx": 43,
+   "dataset": "novel_nk",
+   "M": 360,
+   "N": 2048,
+   "K": 8192,
+   "kid": 7,
+   "variants": [
+    "default"
+   ],
+   "bucket": "256-1024"
+  },
+  {
+   "idx": 44,
+   "dataset": "novel_nk",
+   "M": 406,
+   "N": 2112,
+   "K": 768,
+   "kid": 18,
+   "variants": [
+    "origami",
+    "oracle"
+   ],
+   "bucket": "256-1024"
+  },
+  {
+   "idx": 45,
+   "dataset": "novel_nk",
+   "M": 406,
+   "N": 2112,
+   "K": 768,
+   "kid": 7,
+   "variants": [
+    "default"
+   ],
+   "bucket": "256-1024"
+  },
+  {
+   "idx": 46,
+   "dataset": "novel_nk",
+   "M": 2660,
+   "N": 6400,
+   "K": 512,
+   "kid": 14,
+   "variants": [
+    "origami"
+   ],
+   "bucket": "1024-4096"
+  },
+  {
+   "idx": 47,
+   "dataset": "novel_nk",
+   "M": 2660,
+   "N": 6400,
+   "K": 512,
+   "kid": 18,
+   "variants": [
+    "oracle"
+   ],
+   "bucket": "1024-4096"
+  },
+  {
+   "idx": 48,
+   "dataset": "novel_nk",
+   "M": 2660,
+   "N": 6400,
+   "K": 512,
+   "kid": 7,
+   "variants": [
+    "default"
+   ],
+   "bucket": "1024-4096"
+  },
+  {
+   "idx": 49,
+   "dataset": "novel_nk",
+   "M": 2694,
+   "N": 20480,
+   "K": 6400,
+   "kid": 0,
+   "variants": [
+    "origami",
+    "oracle"
+   ],
+   "bucket": "1024-4096"
+  },
+  {
+   "idx": 50,
+   "dataset": "novel_nk",
+   "M": 2694,
+   "N": 20480,
+   "K": 6400,
+   "kid": 7,
+   "variants": [
+    "default"
+   ],
+   "bucket": "1024-4096"
+  },
+  {
+   "idx": 51,
+   "dataset": "novel_nk",
+   "M": 7903,
+   "N": 128,
+   "K": 4608,
+   "kid": 12,
+   "variants": [
+    "origami"
+   ],
+   "bucket": ">4096"
+  },
+  {
+   "idx": 52,
+   "dataset": "novel_nk",
+   "M": 7903,
+   "N": 128,
+   "K": 4608,
+   "kid": 3,
+   "variants": [
+    "oracle"
+   ],
+   "bucket": ">4096"
+  },
+  {
+   "idx": 53,
+   "dataset": "novel_nk",
+   "M": 7903,
+   "N": 128,
+   "K": 4608,
+   "kid": 7,
+   "variants": [
+    "default"
+   ],
+   "bucket": ">4096"
+  },
+  {
+   "idx": 54,
+   "dataset": "novel_nk",
+   "M": 15124,
+   "N": 32768,
+   "K": 2176,
+   "kid": 0,
+   "variants": [
+    "origami",
+    "oracle"
+   ],
+   "bucket": ">4096"
+  },
+  {
+   "idx": 55,
+   "dataset": "novel_nk",
+   "M": 15124,
+   "N": 32768,
+   "K": 2176,
+   "kid": 7,
+   "variants": [
+    "default"
+   ],
+   "bucket": ">4096"
+  }
+ ]
+}
